@@ -1,6 +1,12 @@
 name: 📦 Build Android APK
 
-# Triggerujemy przy pushu do gałęzi main
+# <-- Tu dajemy workflow odpowiednie uprawnienia
+permissions:
+  contents: read        # odczyt kodu
+  actions: write        # pobieranie i wykonywanie akcji
+  packages: write       # (jeśli chcemy też zapisywać paczki)
+  id-token: write       # (potrzebne np. do OIDC, nie zaszkodzi)
+
 on:
   push:
     branches:
@@ -10,22 +16,18 @@ jobs:
   build-android:
     runs-on: ubuntu-latest
     env:
-      # Ustawiamy JDK domyślnie z Ubuntu
       JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
 
     steps:
-      # 1) Sprawdź kod
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2) Java 11
       - name: Set up Java 11
         uses: actions/setup-java@v3
         with:
           distribution: temurin
           java-version: '11'
 
-      # 3) Pakiety systemowe wymagane przez Buildozer
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -37,24 +39,20 @@ jobs:
             gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
             gstreamer1.0-libav build-essential git-core
 
-      # 4) Buildozer
       - name: Install Buildozer
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
           pip3 install buildozer
 
-      # 5) Budowa APK
       - name: Build APK with Buildozer
         run: |
           buildozer android debug --verbose
 
-      # 6) Debug: pokaż, co jest w folderze bin/
       - name: List contents of bin/
         run: |
           echo ">>> Zawartość katalogu bin:"
           if [ -d "bin" ]; then ls -R bin; else echo "(folder bin/ nie istnieje)"; fi
 
-      # 7) Upload artefaktu
       - name: Upload APK artifact
         uses: actions/upload-artifact@v2
         with:
