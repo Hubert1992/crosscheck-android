@@ -1,12 +1,14 @@
-name: 📦 Build Android APK and Push APK Branch
+name: 📦 Build Android APK and Publish
+
+# Wymagane uprawnienia, żeby workflow mógł dopaść kod i go pushować
+permissions:
+  contents: write
+  actions: write
 
 on:
   push:
     branches:
       - main
-
-permissions:
-  contents: write   # potrzebne, by workflow mogło pushować do repo
 
 jobs:
   build-android:
@@ -15,17 +17,20 @@ jobs:
       JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
 
     steps:
-      - name: Checkout main branch
+      # 1) Pobierz kod repo (z pełną historią, bo potem force‑pushujemy)
+      - name: Checkout code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # potrzebne, by móc pushować z powrotem
+          fetch-depth: 0
 
+      # 2) Java 11
       - name: Set up Java 11
         uses: actions/setup-java@v3
         with:
           distribution: temurin
           java-version: '11'
 
+      # 3) Systemowe zależności pod Buildozer
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -34,43 +39,43 @@ jobs:
             openjdk-11-jdk unzip zlib1g-dev libncurses5 libffi-dev \
             libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
             gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
-            gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
-            gstreamer1.0-libav build-essential git-core
+            gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav \
+            build-essential git-core
 
+      # 4) Buildozer
       - name: Install Buildozer
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
           pip3 install buildozer
 
+      # 5) Budowa APK
       - name: Build APK with Buildozer
-        run: |
-          buildozer android debug --verbose
+        run: buildozer android debug --verbose
 
-      - name: Debug: list contents of bin/
+      # 6) Debug: co jest w bin/ ?
+      - name: List contents of bin/
         run: |
           echo ">>> Zawartość katalogu bin:"
-          if [ -d "bin" ]; then ls -R bin; else echo "(folder bin/ nie istnieje)"; fi
+          if [ -d bin ]; then ls -R bin; else echo "(bin/ nie istnieje)"; fi
 
-      - name: Commit and push APK to branch 'apk'
+      # 7) Wypchnięcie APK do brancha apk
+      - name: Push APK to branch
         env:
-          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          REPO: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         run: |
-          # znajdź apkę
-          APK=$(ls bin/*.apk | head -n1)
-          echo "Found APK: $APK"
-          # klonuj repo z pełną historią
-          git clone "$REPO_URL" repo
-          cd repo
-          # utwórz/ustaw branch apk
+          APK_FILE=$(ls bin/*.apk 2>/dev/null | head -n1)
+          if [ -z "$APK_FILE" ]; then
+            echo "Nie znaleziono .apk w bin/, zakończone bez push."
+            exit 1
+          fi
+          echo "Znaleziono APK: $APK_FILE"
+          git clone "$REPO" out
+          cd out
           git checkout --orphan apk
-          # usuń wszystkie stare pliki (jeśli były)
           git rm -rf .
-          # skopiuj apkę do katalogu repo
-          cp "../$APK" .
-          # dodaj i skomituj
-          git add *.apk
+          cp "../$APK_FILE" .
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Add built APK from $GITHUB_SHA"
-          # wymuś wypchnięcie do branch apk
+          git add *.apk
+          git commit -m "Add APK from $GITHUB_SHA"
           git push -f origin apk
