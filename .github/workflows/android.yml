@@ -1,14 +1,13 @@
 name: 📦 Build Android APK and Publish
 
-# Wymagane uprawnienia, żeby workflow mógł dopaść kod i go pushować
-permissions:
-  contents: write
-  actions: write
-
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
+  actions: write
 
 jobs:
   build-android:
@@ -17,48 +16,42 @@ jobs:
       JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
 
     steps:
-      # 1) Pobierz kod repo (z pełną historią, bo potem force‑pushujemy)
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # 2) Java 11
       - name: Set up Java 11
         uses: actions/setup-java@v3
         with:
           distribution: temurin
           java-version: '11'
 
-      # 3) Systemowe zależności pod Buildozer
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
             python3-pip python3-venv \
-            openjdk-11-jdk unzip zlib1g-dev libncurses5 libffi-dev \
+            openjdk-11-jdk unzip zlib1g-dev libffi-dev \
             libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
             gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
             gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav \
             build-essential git-core
 
-      # 4) Buildozer
       - name: Install Buildozer
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
           pip3 install buildozer
 
-      # 5) Budowa APK
       - name: Build APK with Buildozer
-        run: buildozer android debug --verbose
+        run: |
+          buildozer android debug --verbose
 
-      # 6) Debug: co jest w bin/ ?
       - name: List contents of bin/
         run: |
           echo ">>> Zawartość katalogu bin:"
           if [ -d bin ]; then ls -R bin; else echo "(bin/ nie istnieje)"; fi
 
-      # 7) Wypchnięcie APK do brancha apk
       - name: Push APK to branch
         env:
           REPO: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
