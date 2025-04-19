@@ -1,6 +1,5 @@
 name: 📦 Build Android APK
 
-# Ustawiamy trigger: buduj przy każdym pushu do brancha main
 on:
   push:
     branches:
@@ -8,58 +7,47 @@ on:
 
 jobs:
   build-android:
-    # Wykonujemy na najnowszym Ubuntu
     runs-on: ubuntu-latest
-    # Zdefiniujmy zmienną środowiskową wskazującą JDK
     env:
       JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
 
     steps:
-    # 1) Pobierz kod repozytorium
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    # 2) Zainstaluj Java 11
-    - name: Set up Java 11
-      uses: actions/setup-java@v3
-      with:
-        distribution: 'temurin'
-        java-version: '11'
+      - name: Set up Java 11
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
 
-    # 3) Doinstaluj pakiety systemowe potrzebne przez Buildozer
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y \
-          python3-pip python3-venv \
-          openjdk-11-jdk unzip zlib1g-dev libncurses5 libffi-dev \
-          libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
-          gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
-          gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
-          gstreamer1.0-libav build-essential git-core
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            python3-pip python3-venv \
+            openjdk-11-jdk unzip zlib1g-dev libncurses5 libffi-dev \
+            libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
+            gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
+            gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
+            gstreamer1.0-libav build-essential git-core
 
-    # 4) Zainstaluj Buildozer w środowisku Pythona
-    - name: Install Buildozer
-      run: |
-        python3 -m pip install --upgrade pip setuptools wheel
-        pip3 install buildozer
+      - name: Install Buildozer
+        run: |
+          python3 -m pip install --upgrade pip setuptools wheel
+          pip3 install buildozer
 
-    # 5) Uruchom komendę budującą APK
-    - name: Build APK with Buildozer
-      run: |
-        buildozer android debug --verbose
+      - name: Build APK with Buildozer
+        run: |
+          buildozer android debug --verbose
 
-    # 6) Wgraj gotowy APK jako artefakt workflow
-         - name: Check bin folder
-         run: |
-           echo ">>> Zawartość katalogu bin:"
-           ls -R bin || echo "(bin nie istnieje)"
+      - name: Check bin folder
+        run: |
+          echo ">>> Zawartość katalogu bin:"
+          ls -R bin || echo "(bin nie istnieje)"
 
--      - name: Upload APK artifact
--        uses: actions/upload-artifact@v3
-+      - name: Upload APK artifact
-+        uses: actions/upload-artifact@v2
-         with:
-           name: crosscheck-apk
-           path: bin/*.apk
-
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: crosscheck-apk
+          path: bin/*.apk
