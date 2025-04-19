@@ -1,0 +1,1016 @@
+{
+  "Procedury awaryjne": [
+    {
+      "question": "Omów zasady postępowania po usłyszeniu komendy „RAPID DEBOARDING, RAPID DEBOARDING” - pozycja CC1. ",
+      "answer": "A.\tCC1 wygłasza zapowiedź RAPID DEBOARDING przez PA. W pzrypadku utraty zasilania może użyć megafonu lub wykrzyczeć instrukcje. ZAPOWIEDŻ RAPID DEBOARDING:\nB.\tMonitoruj sytuację pasażerów wysiadających przez Twoje drzwi - wykrzykuj komendy: DO WYJŚĆ / GET OUT ZOSTAW WSZYSTKO / LEAVE EVERYTHING\nC.\tJeżeli dostępne wyjście znajduje się w innej części samolotu, CC1 kieruje pasażerów do wyjścia, podąża za nimi, wykrzykując komendy – nie przestaje wykrzykiwać komend: DO WYJŚĆ / GET OUT ZOSTAW WSZYSTKO / LEAVE EVERYTHING\nD.\tZapewnia pomoc każdemu pasażerowi, dla którego jest ona potrzebna\nE.\tGdy ostatni pasażerowie opuszczą samolot, CC1 upewnia się, że personel pokładowy sprawdził kabinę, w tym bufety i toalety, aby upewnić się, że wszyscy pasażerowie opuścili pokład. Sprawdza kokpit jeżeli załoga lotnicza nadal tam jest. Następnie opuszcza samolot po otrzymaniu raportu od innych CC:\nCABIN CHECKED\nF.\tCC opuszczają pokład, chyba że Cpt. zaleci inaczej.\nUWAGA: Przez cały czas CC musi mieć świadomość, że podczas Rapid Deboarding, niebezpieczna sytuacja może zmienić się w awarię i może zaistnieć konieczność przeprowadzenia ewakuacji, dlatego CC muszą być czujni i gotowi do uzbrojenia drzwi i przeprowadzenia tej ewakuacji."
+    },
+    {
+      "question": "Omów zasady postępowania po usłyszeniu komendy „RAPID DEBOARDING, RAPID DEBOARDING” - CC. ",
+      "answer": "a)\tCC zmuszają pasażerów do opuszczenie pokładu, podając bezpośrednie i krótkie komendy:\nDO WYJŚĆ / GET OUT\nZOSTAW WSZYSTKO / LEAVE EVERYTHING\n\nI.\tJeśli pasażerowie wychodzą przez Twoje drzwi – Monitoruj ich – nie przestawaj wykrzykiwać komend:\nDO WYJŚĆ / GET OUT\nZOSTAW WSZYSTKO / LEAVE EVERYTHING\n\nII.\tJeżeli dostępne wyjście znajduje się w innej części samolotu, CC kieruje pasażerów do wyjścia, podąża za nimi, wykrzykując komendy – nie przestaje wykrzykiwać komend:\nDO WYJŚĆ / GET OUT\nZOSTAW WSZYSTKO / LEAVE EVERYTHING\nb)\tZapewnia pomoc każdemu pasażerowi, dla którego jest ona potrzebna. \nc)\tGdy ostatni pasażerowie opuszczą samolot, CC sprawdza kabinę, w tym bufety i toalety, aby upewnić się, że wszyscy pasażerowie opuścili pokład. Następnie CC opuszczając pokład zgłasza CC przy wyjściu:\nCABIN CHECKED\nd)\tCC opuszczają pokład, chyba że Cpt. zaleci inaczej. \nUWAGA: Przez cały czas CC musi mieć świadomość, że podczas Rapid Deboarding, niebezpieczna sytuacja może zmienić się w awarię i może zaistnieć konieczność przeprowadzenia ewakuacji, dlatego CC muszą być czujni i gotowi do uzbrojenia drzwi i przeprowadzenia tej ewakuacji."
+    },
+    {
+      "question": "Kto może zainicjować procedurę „Rapid deboarding”? ",
+      "answer": "3.\tKto może zainicjować procedurę „Rapid deboarding”? \nTylko PIC lub  SCCM na polecenie PIC może zainicjować procedurę Rapid Deboarding, podając przez PA komendę: \nRAPID DEBOARDING, RAPID DEBOARDING"
+    },
+    {
+      "question": "W jakich sytuacjach zastosujesz procedurę awaryjnego dostępu do kokpitu?",
+      "answer": "Awaryjny dostęp do procedury FD ograniczony jest wyłącznie do następujących sytuacji:\na)\tw przypadku podejrzenia pilot incapacitation;\nb)\tw sytuacjach awaryjnych, jeżeli nie ma możliwości nawiązania kontaktu z FC."
+    },
+    {
+      "question": "Podaj czynności, które wykonasz po usłyszeniu komendy „PURSER TO THE FLIGHT DECK - pozycja CC1. ",
+      "answer": "CC1 niezwłocznie kontaktuje się z FD za pomocą najbliższego INT i skontaktuje się z kabiną załogi. W celu przeprowadzenia briefingu NITS, PIC prosi CC1 o wejście do kokpitu lub przekazuje NITS przez INT.\n•\tCC1 powtórzy otrzymane informacje NITS do PIC, aby upewnić się, że dobrze zrozumiała i że nic jej nie umknęło. Następnie synchronizuje czas z PIC.\n•\tCC1 może korzystać z QRC podczas NITS briefing. Jeśli czas na to pozwala, może spisać otrzymane informacje.\n•\tCC1 przeprowadzi briefing NITS dla pozostałych CC.\n•\tCC1 przydziela obowiązki dodatkowym CC. \n•\tKażdy CC musi potwierdzić briefing NITS, a cała załoga musi zsynchronizować czas."
+    },
+    {
+      "question": "Podaj czynności, które wykonasz po usłyszeniu komendy „PURSER TO THE FLIGHT DECK - pozycja CC. ",
+      "answer": "CC zabierają QRC i zbierają się w przednim bufecie. Czekają, aż CC1 będzie gotowy do przeprowadzenia briefingu NITS dla CC.\n•\tPo przeprowadzeniu briefingu NITS przez CC1 Każdy CC musi potwierdzić briefing NITS, a cała załoga musi zsynchronizować czas."
+    },
+    {
+      "question": "Jaka jest alternatywna metoda do komendy „PURSER TO THE FLIGHT DECK”, w sytuacji, kiedy załoga lotnicza chce poinformować załogę pokładową o sytuacji niestandardowej/awaryjnej? ",
+      "answer": "Alternatywna metoda zależy od typu samolotu:\n•\tB787 – 3 sygnały dźwiękowe HI/LOW wezwania FD\n•\tB737 — 3 sygnały dźwiękowe HI/LOW wezwania FD (222 na słuchawce)\n•\tERJ – 1xEMER PILOT (3x dzwonki HI/LOW w kabinie)"
+    },
+    {
+      "question": "Rozwiń akronim NITS. W jakiej sytuacji ma on zastosowanie? ",
+      "answer": "Odprawa NITS może zostać wykorzystana do poinformowania CC o nietypowym zdarzeniu lub sytuacji awaryjnej.\nN – Nature of emergency - Charakter sytuacji awaryjnej\nI –  Intention of the PIC - Intencja PIC\n       T - time remaining until landing - czas pozostały do lądowania\nS - specific instructions or any other relevant information - szczegółowe instrukcje lub inne istotne informacje\nUWAGA: Briefing NITS, PIC do CC1 – PIC musi jak najszybciej przekazać briefing NITS do CC1, aby zapewnić wystarczającą ilość czasu na przygotowanie kabiny do ewentualnego awaryjnego lądowania/wodowania."
+    },
+    {
+      "question": "Co to jest briefing NITS? Jakie czynności należy wykonać po otrzymaniu briefingu NITS od kapitana? ",
+      "answer": "Briefing NITS to ustrukturyzowana metoda komunikacji pomiędzy załogą lotniczą a personelem pokładowym.\n•\tCC powtórzy otrzymany NITS, aby upewnić się, że nie ma nieporozumień i że nic nie umknęło oraz synchronizuje czas.\n•\tCC może korzystać z QRC podczas briefingu NITS od PIC. Jeśli czas na to pozwala, może spisać otrzymane informacje.\n•\tCC, który otrzymał briefing NITS, przeprowadzi briefing NITS dla reszty CC.\n•\tCC, który otrzymał briefing NITS, przydziela obowiązki dodatkowym CC. \n•\tKażdy CC musi potwierdzić briefing NITS, a cała załoga musi zsynchronizować czas."
+    },
+    {
+      "question": "Rozwiń akronim SIN. W jakich sytuacjach go użyjesz? ",
+      "answer": "Jeżeli którykolwiek Członek Załogi zauważy, że bezpieczeństwo pasażerów, Załogi lub statku powietrznego jest zagrożone. W przypadku wystąpienia sytuacji awaryjnej w kabinie (pożar/dym, nagły wypadek medyczny, rozlanie towarów niebezpiecznych) CC musi na bieżąco informować PIC o powadze sytuacji w miarę jej rozwoju.\nDo zgłoszenia sytuacji w kabinie CC użyje akronimu SIN\nS – Situation - Charakter sytuacji w kabinie: np. nagły wypadek medyczny, pożar, rozlanie towarów niebezpiecznych itp.\nI – Information - Jakie wstępne działania zostały już podjęte przez CC.\nN – Needed - Dodatkowe informacje i uwagi dotyczące sytuacji, np.: potrzebna pomoc medyczna, dodatkowe informacje na temat pasażera zakłócającego podróż itp."
+    },
+    {
+      "question": "Według jakiego akronimu przekażesz informacje o sytuacji niestandardowej do kokpitu np. utrata przytomności pasażera? (Zaprezentuj przekazywanie informacji o ww. przypadku do FD) ",
+      "answer": "Aby zgłosić nienormalną sytuację na pokładzie, CC użyje akronimu SIN.\nS – Situation - mamy nagły przypadek medyczny, nieprzytomnego, oddychającego mężczyznę w średnim wieku w tylnym bufecie.\nI – Information - podaliśmy tlen, pomaga nam lekarz, \nN – Needed  - potrzebujemy skorzystać z apteczki EMK i po zabraniu wszystkich niezbędnych informacji potrzebujemy skontaktować się z MEDLINK."
+    },
+    {
+      "question": "Według jakiego akronimu przekażesz informacje o sytuacji awaryjnej do kokpitu np. pożar piekarnika? \n(Zaprezentuj przekazywanie informacji o ww. pożarze do FD) ",
+      "answer": "Aby zgłosić nienormalną sytuację na pokładzie, CC użyje akronimu SIN.\nS – Situation - mamy pożar piekarnika w przednim bufecie.\nI – Information -  odcięliśmy prąd w bufecie, do gaszenia użyliśmy jednej gaśnicy halonowej i jednego PBE. W kabinie jest dużo dymu. Przesadziliśmy pasażerów na tył kabiny i daliśmy im mokre ręczniki. Pożar ugaszony.\nN – Needed – prosimy o przewentylowanie kabiny."
+    },
+    {
+      "question": "Co zabierzesz ze sobą do prezentacji zapowiedzi awaryjnej w przygotowaniu do lądowania awaryjnego a co do wodowania? ",
+      "answer": "Instrukcję bezpieczeństwa a w przypadku wodowania również czerwoną załogową kamizelkę ratunkową."
+    },
+    {
+      "question": "Której kamizelki użyje personel pokładowy w trakcie prezentacji zapowiedzi awaryjnej przed wodowaniem?  ",
+      "answer": "Czerwonej załogowej kamizelki ratunkowej"
+    },
+    {
+      "question": "Kiedy personel pokładowy zajmuje miejsce do briefingu pasażerów przed prezentacją zapowiedzi awaryjnej? ",
+      "answer": "Po CABIN CLEARANCE CC1 odczytuje/odtwarza komunikat (Początek zapowiedzi awaryjnej)\n„Personel pokładowy, proszę zająć pozycje do briefingu pasażerów”\n“Cabin crew, take your positions for passengers’ briefing”\nCC zajmują przydzielone im stanowiska do zapowiedzi awaryjnej w kabinie pasażerskiej.\nCABIN CLEARANCE:\n•\tPrzygotuj/zabezpiecz bufety;\n•\tSprawdź i zablokuj toalety;\n•\tUsuń/zabezpiecz zasłony oddzielające bufety i kabinę pasażerską.\n•\tJeżeli sytuacja awaryjna nastąpiła podczas serwisu to CC muszą zebrać tace po odpowiedniej zapowiedzi wygłaszonej przez CC1."
+    },
+    {
+      "question": "W jakich sytuacjach personel pokładowy może podjąć decyzję o rozpoczęciu ewakuacji i jaki warunek powinien być spełniony? ",
+      "answer": "Jeżeli w kabinie znajduje się sytuacja zagrażająca życiu lub katastrofalna, CC musi podjąć próbę skontaktowania się z FD, aby poinformować ją o sytuacji i poczekać na instrukcje. Jeżeli kontakt z załogą lotniczą nie jest możliwy lub obaj piloci są niezdolni do pracy, personel pokładowy powinien rozpocząć ewakuację.\n\nPodejmując decyzję o rozpoczęciu ewakuacji, CC musi:\n• upewnić się, że samolot całkowicie się zatrzymał (nie wolno rozpoczynać ewakuacji, gdy samolot się porusza),\n• upewnić się, że silniki są wyłączone,\n• ocenić poziom zagrożenia\n• ocenić konsekwencje, jakie może wywołać opóźnienie w podjęciu decyzji, np.: dym lub pożar, który wymknął się spod kontroli, wymagałby szybkiej decyzji ze względu na zagrożenie dla pasażerów i załogi.\n\nKażda ewakuacja wymaga koordynacji załogi, ponieważ nie wszyscy członkowie załogi mogą być świadomi istnienia sytuacji zagrażającej życiu. \nCC rozpoczynający ewakuację wykrzykuje komendę:\nEVACUATE\nEVACUATE\nIstnieje wiele metod i sprzętu, za pomocą których CC może poinformować pozostałych członków załogi o rozpoczęciu ewakuacji: PA, INT, megafon i EVAC (B787).\n\nSytuacje katastroficzne opisuje się jako sytuacje, w których stan samolotu ma wpływ na życie ludzi na pokładzie i jedyną możliwością jest ewakuacja. \nSytuacje katastroficzne obejmują między innymi:\n1. Pożar wewnątrz lub na zewnątrz samolotu, który nie jest opanowany i pogłębia się;\n2. Gęsty dym w kabinie zagrażający życiu;\n3. Wodowanie\n4. Oczywiste uszkodzenie kadłuba."
+    },
+    {
+      "question": "Kiedy pasażerowie zakładają i napełniają kamizelki w sytuacji planowanego wodowania? ",
+      "answer": "A.\tPasażerowie zakładają kamizelki podczas przygotowań kabiny do wodowania. \nB.\tKamizelkę napełniają:\n1)\tW drzwiach podczas ewakuacji przez drzwi;\n2)\tNa skrzydle podczas ewakuacji przez okno awaryjne."
+    },
+    {
+      "question": "Kiedy założyć kamizelkę infantowi, a kiedy ją napełnić (planowane wodowanie)?",
+      "answer": "Kamizelkę należy założyć infantowi i napełnić podczas przygotowania kabiny do wodowania."
+    },
+    {
+      "question": "Co zrobisz, jeśli pasażer odmówi Ci pomocy jako ABP w trakcie przygotowania samolotu do lądowania awaryjnego? ",
+      "answer": "Natychmiast poprosić kolejnego pasażera aby nam pomógł jako ABP."
+    },
+    {
+      "question": "Kto prowadzi ewakuację przez okna awaryjne? ",
+      "answer": "Siedzący przy oknach przeszkoleni przed startem pasażerowie - ABP"
+    },
+    {
+      "question": "Jak upewnić się, że ABP zrozumieli instrukcje przekazane w trakcie szkolenia?  ",
+      "answer": "Pytając się ich czy zrozumieli instrukcję oraz zadając dodatkowe pytania o to jak postąpią albo co zrobią jeżeli czas na to pozwoli."
+    },
+    {
+      "question": "Jakie informacje powinno zawierać szkolenie dla pierwszego ABP do drzwi – lądowanie awaryjne? ",
+      "answer": "I. KIEDY przejąć obowiązki CC \t•\tJeżeli ja będę niesprawna/y Ty poprowadzisz ewakuację \n- przez te drzwi\n- usuń mnie w wolne\n\nII. CO robić \t•\toceń sytuację na zewnątrz przez to okno\nJeśli zobaczysz pożar\n•\tnie otwieraj drzwi\n•\todsyłaj ludzi do innych czynnych wyjść\n•\topuść samolot\n•\tpostępu j tak samo, jeśli drzwi się nie otworzą\nJeśli nie będzie pożaru\n•\tOtwórz te drzwi\nIII. JAK otworzyć drzwi \t•\tobróć / podnieść tą dźwignię\n•\tWypnij drzwi na zewnątrz\n•\tPoczekaj aż Trap napełni się automatycznie\njeśli nie\nI.\tPociągnij za czerwoną rączkę, którą znajdziesz w tym miejscu\nIV. JAK postępować \t  Po napełnieniu trapu:\n•\tStań tutaj\n•\tKrzycz komendy: TĘDY / SKACZ\n•\tSKACZ DWOJE NA RAZ – trap dwuścieżkowy\n•\tGdy wszyscy wyjdą, ewakuuj się sam\n•\tZabierz mnie ze sobą"
+    },
+    {
+      "question": "Jakie informacje powinno zawierać szkolenie dla drugiego ABP do drzwi – lądowanie awaryjne?  ",
+      "answer": "I. CO robić \tPo otwarciu drzwi \n•\tEwakuuj się jako pierwszy;\n•\tDobierz sobie kogoś do pomocy \n•\tPomagajcie innym, odsyłajcie ich od samolotu \n•\tJeśli drzwi nie zostaną otwarte postępuj zgodnie z rozwojem sytuacji "
+    },
+    {
+      "question": "Jakie działania podejmiesz przy braku komendy z kokpitu po lądowaniu awaryjnym, kiedy sytuacja zagraża bezpieczeństwu? ",
+      "answer": "Spróbuj skontaktować się z załogą lotniczą, aby poinformować ją o sytuacji i poczekać na instrukcje. Jeżeli kontakt z załogą lotniczą nie jest możliwy lub obaj piloci są niezdolni do pracy, personel pokładowy powinien rozpocząć ewakuację.\n\nPodejmując decyzję o rozpoczęciu ewakuacji, CC musi:\n• upewnić się, że samolot całkowicie się zatrzymał (nie wolno rozpoczynać ewakuacji, gdy samolot się porusza),\n• upewnić się, że silniki są wyłączone,\n• ocenić poziom zagrożenia\n• ocenić konsekwencje, jakie może wywołać opóźnienie w podjęciu decyzji, np.: dym lub pożar, który wymknął się spod kontroli, wymagałby szybkiej decyzji ze względu na zagrożenie dla pasażerów i załogi.\n\nKażda ewakuacja wymaga koordynacji załogi, ponieważ nie wszyscy członkowie załogi mogą być świadomi istnienia sytuacji zagrażającej życiu. \nCC rozpoczynający ewakuację wykrzykuje komendę:\nEVACUATE\nEVACUATE\nIstnieje wiele metod i sprzętu, za pomocą których CC może poinformować pozostałych członków załogi o rozpoczęciu ewakuacji: PA, INT, megafon i EVAC (B787)."
+    },
+    {
+      "question": "Jakie czynności wykonasz po usłyszeniu komendy „CREW AT STATIONS, CREW AT STATIONS”?",
+      "answer": "CC zajmują przypisane procedurą pozycje, oceniają sytuację wewnątrz i na zewnątrz samolotu i pozostają czujni."
+    },
+    {
+      "question": "Jakie czynności wykonasz po wodowaniu po komendzie „EVACUATE, EVACUATE” przy drzwiach? (pytanie powinno dotyczyć konkretnego wyjścia, przez które będzie prowadzona ewakuacja)",
+      "answer": "CC wyznaczone procedurą włączają oświetlenie awaryjne\n•\tB787 – włączenie EVAC;\n•\tOceń sytuację na zewnątrz;\nOtwórz wyjście awaryjne;\n•\tPociągnij za rączkę awaryjnego napełniania trapu; \n•\tPoczekaj, aż trap się napełni powstrzymując pasażerów przed podejściem do wyjścia;\nTRAP:\n•\tOdczep trapod progu drzwi \n•\tEwakuuj pasażerów bezpośrednio do wody krzycząc komendy:\n•\tTĘDY/ THIS WAY\n•\tTY POMAGAJ INNYM/YOU HELP THE OTHERS\n•\tNAPEŁNIJ KAMIZELKĘ / INFLATE THE VEST\n•\tSKACZ / JUMP\nTRAPOTRATWA:\n•\tEwakuuj pasażerów bezpośrednio do tratwy krzycząc komendy:\n•\tTĘDY/ THIS WAY\n•\tTY POMAGAJ INNYM/YOU HELP THE OTHERS\n•\tNAPEŁNIJ KAMIZELKĘ / INFLATE THE VEST\n•\tZSUŃ SIĘ DO TRATWY/SLIDE DOWN THE RAFT\n\nGdy na pokładzie nie ma już pasażerów\n•\tSprawdź przypisaną sekcję\n•\tPomóż pozostałym pasażerom (jeśli są) \n•\tZabierz sprzęt awaryjny \n•\tZamelduj CC przy wyjściu (jeśli to możliwe) CABIN CHECKED\n•\tSprawdź kokpit – SCCM\n•\tNapełnij kamizelkę\n•\tOpuść samolot\n•\tOdłącz linę mocującą TRAP z samolotem\nLub\n•\tBędąc w tratwie odłączyć tratwę od progu drzwi odetnij linę mocującą tratwę z samolotem."
+    },
+    {
+      "question": "Jakie czynności należy wykonać po otwarciu drzwi, przed rozpoczęciem ewakuacji na wodzie (EMB, B737)? ",
+      "answer": "Otwórz wyjście awaryjne;\n•\tPociągnij za rączkę awaryjnego napełniania trapu; \n•\tPoczekaj, aż trap się napełni powstrzymując pasażerów przed podejściem do wyjścia;\n•\tOdczep trapod progu drzwi \n•\tEwakuuj pasażerów bezpośrednio do wody"
+    },
+    {
+      "question": "Jakie czynności należy wykonać po otwarciu drzwi, przed rozpoczęciem ewakuacji na wodzie (B787)? ",
+      "answer": "Otwórz wyjście awaryjne;\n•\tPociągnij za rączkę awaryjnego napełniania trapu; \n•\tPoczekaj, aż trap się napełni powstrzymując pasażerów przed podejściem do wyjścia;\n•\tEwakuuj pasażerów bezpośrednio do tratwy"
+    },
+    {
+      "question": "Jesteś CC4 na B787. Jakie czynności należy wykonać po zakończonej ewakuacji na wodzie?",
+      "answer": "•\tWeź latarkę\n•\tSprawdź sekcję A (jeśli to możliwe, zgłoś CABIN CHECKED);\n•\tNapełnij kamizelkę\n•\tewakuuj się wyjściem 1R.\n•\tOdczep tratwę od samolotu (będąc w tratwie)\n•\tprzejmij dowodzenie nad tratwą(-ami) i przydziel obowiązki innym pasażerom. \n•\tupewnij się, że nikt nie zdejmuje kamizelek ratunkowych.\n•\tWyjmij z wodo SURVIVAL KIT\n•\tUżyj dryfkotwy, aby odsunąć tratwę od samolotu.\n•\tWyciągnij każdą osobę znajdującą się w wodzie\n•\tRozłóż dach tratwy\n•\tAktywuj ELT;\n•\tPrzymocuj ELT do tratwy za pomocą jego linki i wrzuć do wody (jeśli dostępnych jest więcej niż jedn ELT nie włączaj ich razem, używaj jednego na raz);\n•\tZlokalizuj inne tratwy i połącz je luźno za pomocą lin;\n•\tWystrzelić flary (gdy załoga zobaczy potencjalnych ratowników);\n•\tUwolnij w wodzie marker z barwnikiem morskim (gdy jest widno i, gdy załoga zauważy potencjalnych ratowników);\n•\tSkieruj latarki lub inne urządzenia sygnalizacyjne w kierunku dźwięku gdy go usłyszysz;\n•\tWrzuć do wody dryfkotwę."
+    },
+    {
+      "question": "Jesteś CC5 na B787. Jakie czynności należy wykonać po zakończonej ewakuacji na wodzie? ",
+      "answer": "•\tWeź latarkę\n•\tNapełnij kamizelkę\n•\tewakuuj się wyjściem 4R.\n•\tOdczep tratwę od samolotu (będąc w tratwie)\n•\tprzejmij dowodzenie nad tratwą(-ami) i przydziel obowiązki innym pasażerom. \n•\tupewnij się, że nikt nie zdejmuje kamizelek ratunkowych.\n•\tWyjmij z wodo SURVIVAL KIT\n•\tUżyj dryfkotwy, aby odsunąć tratwę od samolotu.\n•\tWyciągnij każdą osobę znajdującą się w wodzie\n•\tRozłóż dach tratwy\n•\tAktywuj ELT;\n•\tPrzymocuj ELT do tratwy za pomocą jego linki i wrzuć do wody (jeśli dostępnych jest więcej niż jedn ELT nie włączaj ich razem, używaj jednego na raz);\n•\tZlokalizuj inne tratwy i połącz je luźno za pomocą lin;\n•\tWystrzelić flary (gdy załoga zobaczy potencjalnych ratowników);\n•\tUwolnij w wodzie marker z barwnikiem morskim (gdy jest widno i, gdy załoga zauważy potencjalnych ratowników);\n•\tSkieruj latarki lub inne urządzenia sygnalizacyjne w kierunku dźwięku gdy go usłyszysz;\n•\tWrzuć do wody dryfkotwę."
+    },
+    {
+      "question": "Jesteś CC6 na B787. Jakie czynności należy wykonać po zakończonej ewakuacji na wodzie?",
+      "answer": "•\tWeź latarkę\n•\tNapełnij kamizelkę\n•\tewakuuj się wyjściem 2R.\n•\tOdczep tratwę od samolotu (będąc w tratwie)\n•\tprzejmij dowodzenie nad tratwą(-ami) i przydziel obowiązki innym pasażerom. \n•\tupewnij się, że nikt nie zdejmuje kamizelek ratunkowych.\n•\tWyjmij z wodo SURVIVAL KIT\n•\tUżyj dryfkotwy, aby odsunąć tratwę od samolotu.\n•\tWyciągnij każdą osobę znajdującą się w wodzie\n•\tRozłóż dach tratwy\n•\tAktywuj ELT;\n•\tPrzymocuj ELT do tratwy za pomocą jego linki i wrzuć do wody (jeśli dostępnych jest więcej niż jedn ELT nie włączaj ich razem, używaj jednego na raz);\n•\tZlokalizuj inne tratwy i połącz je luźno za pomocą lin;\n•\tWystrzelić flary (gdy załoga zobaczy potencjalnych ratowników);\n•\tUwolnij w wodzie marker z barwnikiem morskim (gdy jest widno i, gdy załoga zauważy potencjalnych ratowników);\n•\tSkieruj latarki lub inne urządzenia sygnalizacyjne w kierunku dźwięku gdy go usłyszysz;\n•\tWrzuć do wody dryfkotwę."
+    },
+    {
+      "question": "Jesteś CC3 na B737. Jakie czynności należy wykonać po zakończonej ewakuacji na wodzie?",
+      "answer": "•\tWeź latarkę\n•\tSprawdź sekcję B (jeśli to możliwe, zgłoś CABIN CHECKED);\n•\tNapełnij kamizelkę\n•\tewakuuj się wyjściem 2L.\n•\tOdczep tratwę od samolotu (będąc w tratwie)\n•\tprzejmij dowodzenie nad tratwą(-ami) i przydziel obowiązki innym pasażerom. \n•\tupewnij się, że nikt nie zdejmuje kamizelek ratunkowych.\n•\tWyjmij z wodo SURVIVAL KIT\n•\tUżyj dryfkotwy, aby odsunąć tratwę od samolotu.\n•\tWyciągnij każdą osobę znajdującą się w wodzie\n•\tRozłóż dach tratwy\n•\tAktywuj ELT;\n•\tPrzymocuj ELT do tratwy za pomocą jego linki i wrzuć do wody (jeśli dostępnych jest więcej niż jeden ELT nie włączaj ich razem, używaj jednego na raz);\n•\tZlokalizuj inne tratwy i połącz je luźno za pomocą lin;\n•\tWystrzelić flary (gdy załoga zobaczy potencjalnych ratowników);\n•\tUwolnij w wodzie marker z barwnikiem morskim (gdy jest widno i, gdy załoga zauważy potencjalnych ratowników);\n•\tSkieruj latarki lub inne urządzenia sygnalizacyjne w kierunku dźwięku gdy go usłyszysz;\n•\tWrzuć do wody dryfkotwę."
+    },
+    {
+      "question": "Jesteś CC4 na B737. Jakie czynności należy wykonać po zakończonej ewakuacji na wodzie?  ",
+      "answer": "•\tWeź latarkę; \n•\tSprawdź sekcje C;\n•\tZgłoś się (jeśli to możliwe) do CC3: CABIN CHECKED\n•\tEwakuuj się najbliższym wyjściem, napełnij kamizelkę na skrzydle lub w drzwiach.\n•\tPodpłyń do najbliższego trapu (belka pływająca) trzymaj się jej za pomocą lin u jej boku\n•\tSprzęt awaryjny można położyć na trapie\n•\tZbierz pasażerów wokół trapu\n•\tMożna dzieci lub ranną osobę położyć na trapie\n•\tStaraj się zlokalizować i zbliżyć do innych trapów."
+    },
+    {
+      "question": "Jesteś CC2 na EMB. Jakie czynności należy wykonać po zakończonej ewakuacji na wodzie?  ",
+      "answer": "•\tWeź megafon, latarkę; ELT (od SP LIG) \n•\tSprawdź sekcje B i A;\n•\tZgłoś CC1: CABIN CHECKED\n•\tNapełnij kamizelkę\n•\tEwakuuj się przez drzwi 1l lub 1R\n•\tPodpłyń do najbliższego trapu (belka pływająca) trzymaj się jej za pomocą lin u jej boku\n•\tSprzęt awaryjny można położyć na trapie\n•\tAktywuj ELT;\n•\tPrzymocuj ELT do trapu za pomocą jego linki i wrzuć do wody (jeśli dostępnych jest więcej niż jeden ELT nie włączaj ich razem, używaj jednego na raz);\n•\tZbierz pasażerów wokół trapu\n•\tMożna dzieci lub ranną osobę położyć na trapie\n•\tStaraj się zlokalizować i zbliżyć do innych trapów."
+    },
+    {
+      "question": "Jak zaalarmujesz pozostałe CC, gdy jako pierwszy zauważyłeś pożar w kabinie? ",
+      "answer": "Krzycząc BCF, BCF"
+    },
+    {
+      "question": "Jesteś pierwszą CC, która spostrzegła pożar (FIREFIGHTER) – opisz swoje działania. ",
+      "answer": "Dziala wedlug schematu 3 x A \nA Assess - Oceń sytuację (jak duży jest pożar, klasa pożaru)\nA Alarm - Alarmuj innych CC (krzycząc „BCF, BCF”) o sytuacji tak szybko, jak to możliwe\nA Act - działaj zgodnie z twoją oceną\n•\tZidentyfikować rodzaj i źródło pożaru\n•\tZbierz odpowiedni sprzęt/poproś o pomoc\n•\tWalcz z ogniem agresywnie i skutecznie"
+    },
+    {
+      "question": "Jesteś COMMUNICATOREM - opisz swoje działania. ",
+      "answer": "Komunikator to CC, która jako pirwsza zostala wezwana przez firefighter do pomocy i komunikuje się z załogą lotniczą (SIN briefing): \n•\tLokalizacja pożaru \n•\tŹródło pożaru \n•\tNasilenie, gęstość, kolor dymu/zapach \n•\tPostępy w gaszeniu pożaru \n•\tLiczba użytych gaśnic \n•\tCzas rozpoczęcia akcji gaszenia pożaru \n•\tSytuacja w kabinie \n•\tInformowanie załogi lotniczej na bierząco\n•\tWygłoszenie uspokajającej zapowiedzi pasażerom"
+    },
+    {
+      "question": "Jesteś BACK UPEM - opisz swoje działania. ",
+      "answer": "Back up to CC, która została wezwana do pomocy i koordynuj sytuację: \n•\tZapewnij dodatkowy sprzęt gaśniczy \n•\tBądź przygotowany na przejęcie obowiązków firefighter \n•\tUsuń wszelkie materiały łatwopalne z okolicy (w tym sprzęt i alkohol) \n•\tKontroluj pasażerów \n•\tMonitoruj obszar dotknięty pożarem pod kątem oznak ciepła po ugaszeniu pożaru"
+    },
+    {
+      "question": "Pożar laptopa/T-Ped - opisz swoje działania. ",
+      "answer": "Zidentyfikuj przedmiot — natychmiastowa identyfikacja przedmiotu (źródła ognia) może nie być możliwa.\nII.\tOdłącz zasilanie\n•\tOdłącz urządzenie od źródła zasilania, jeśli jest to bezpieczne;\n•\tWyłącz zasilanie w siedzeniu, jeśli ma to zastosowanie;\n•\tSprawdź, czy zasilanie pozostałych gniazd elektrycznych jest wyłączone, jeśli ma to zastosowanie.\nUWAGA: Nie próbuj wyjmować baterii z urządzenia.\nIII.\tStosować procedury przeciwpożarowe\n•\tZbierz sprzęt przeciwpożarowy;\n•\tZałóż PBE i rękawice przeciwpożarowe; \n•\tPowiadom PIC i innych członków personelu pokładowego;\n•\tPrzesadź pasażerów daleko od pożaru (jeśli to możliwe);\n•\tWalcz z ogniem. \nUWAGA: Działania powinny odbywać się jednocześnie.\n\nIV.\tZalać urządzenie wodą (lub inną niepalną cieczą).\nUWAGA: Płyn może zamienić się w parę po zetknięciu z gorącym akumulatorem.\n\nV. Pozostaw urządzenie na swoim miejscu i monitoruj, czy nie doszło do ponownego zapłonu.\nUWAGA: Jeśli ponownie pojawi się dym lub płomienie, powtórz kroki II, a następnie IV.\n•\tNie próbuj podnosić ani przenosić urządzenia;\n•\tNie zakrywaj ani nie zamykaj urządzenia;\n•\tDo chłodzenia urządzenia nie używaj lodu ani suchego lodu.\n\nVI.\tGdy urządzenie ostygnie (około 10 do 15 minut).\n•\tWeź pusty Lermer;\n•\tWłóż do lermera np. plastikową torbę aby zapobiec wyciekaniu wody;\n•\tNapełnij lermer taką ilością wody (lub innej niepalnej cieczy), aby urządzenie było zanurzone;\n•\tStosując środki ochronne, umieść urządzenie w pojemniku i całkowicie zanurzyć je w wodzie (lub innej niepalnej cieczy);\n•\tSchować i (jeśli to możliwe) zabezpieczyć pojemnik, aby zapobiec rozlaniu.\n\nVII.\tPrzez pozostałą część lotu monitoruj urządzenie i otoczenie."
+    },
+    {
+      "question": "Jak uchronisz pasażerów przed skutkami zadymienia? ",
+      "answer": "Pasażerów należy przesadzić z zagrożonego obszaru i zalecić im trzymanie głów w dół, aby wdychać powietrze znajdujące się na poziomie podłogi (trujące gazy i dym unaszą się do góry).\n•\tnależy poinstruować pasażerów, aby pochylili się i trzymali głowę nisko\n•\toddychać przez ubranie, chusteczkę itp.\n•\trozdaj mokre ręczniki/ chusteczki/zagłówki"
+    },
+    {
+      "question": "Opisz swoje działania po komendzie z kokpitu ‘’CABIN CREW, EMPTY BIN FOR T-PED”? ",
+      "answer": "•\tWeź odpowiedni pusty pojemnik (lermer);\n•\tOtwórz pojemnik i umieść go na podłodze bufetu obok drzwi do kokpitu;\n•\tRazem z pilotem ochłódź/ugaś uszkodzone urządzenie, stosując się do BATTERY/PED FIRE/SMOKE checklist."
+    },
+    {
+      "question": "Jesteś pierwszą CC, która spostrzegła pożar piekarnika - opisz swoje działania.  ",
+      "answer": "•\tOceń sytuację \n•\tPowiadom innych CC o sytuacji, krzycząc „BCF, BCF”;\n•\tZamknąć drzwiczki piekarnika, jeśli są otwarte\n•\tWyłączyć piekarnik;\n•\tWyciągnij odpowiedni bezpiecznik / odciąć zasilanie bufetu;\n•\tZałóż rękawice strażackie; Jeżeli jest dym to załóż PBE\n•\tOtwórz drzwiczki piekarnika na tyle, aby włożyć dyszę gaśnicy, użyj drzwi piekarnika jako osłony;\n•\tRozładować gaśnicę halonową i zamknąć drzwi;\n•\tPowtórz, jeśli to konieczne;\n       Kiedy ogień zgaśnie:\n•\tSprawdź źródło ognia;\n•\tUsuń zanieczyszczenia do lermera i zalej je wodą wodą."
+    },
+    {
+      "question": "Jesteś pierwszą CC, która spostrzegła pożar laptopa - opisz swoje działania.  ",
+      "answer": "Zidentyfikuj przedmiot — natychmiastowa identyfikacja przedmiotu (źródła ognia) może nie być możliwa.\nII.\tOdłącz zasilanie\n•\tOdłącz urządzenie od źródła zasilania, jeśli jest to bezpieczne;\n•\tWyłącz zasilanie w siedzeniu, jeśli ma to zastosowanie;\n•\tSprawdź, czy zasilanie pozostałych gniazd elektrycznych jest wyłączone, jeśli ma to zastosowanie.\nUWAGA: Nie próbuj wyjmować baterii z urządzenia.\n\nIII.\tZastosuj procedury przeciwpożarowe\n•\tZbierz sprzęt przeciwpożarowy;\n•\tZałóż PBE i rękawice przeciwpożarowe; \n•\tPowiadom PIC i CC;\n•\tPrzesadź pasażerów z dala od pożaru;\n•\tWalcz z ogniem. \nUWAGA: Akcje powinny odbywać się jednocześnie.\n\nIV.\tZalać urządzenie wodą (lub inną niepalną cieczą).\nUWAGA: Płyn może zamienić się w parę po zetknięciu z gorącym akumulatorem.\n\nV. Pozostaw urządzenie na swoim miejscu i monitoruj, czy nie doszło do ponownego zapłonu.\nUWAGA: Jeśli ponownie pojawi się dym lub płomienie, powtórz kroki II, a następnie IV.\n•\tNie próbuj podnosić ani przenosić urządzenia;\n•\tNie zakrywać ani nie zamykać urządzenia;\n•\tDo chłodzenia urządzenia nie używaj lodu ani suchego lodu.\n\nVI.\tGdy urządzenie ostygnie (około 10 do 15 minut).\n•\tWeź pusty Lermer;\n•\tWłóż do lermera np. plastikową torbę aby zapobiec wyciekaniu wody;\n•\tNapełnij lermer taką ilością wody (lub innej niepalnej cieczy), aby urządzenie było zanurzone;\n•\tStosując środki ochronne, umieść urządzenie w pojemniku i całkowicie zanurzyć je w wodzie (lub innej niepalnej cieczy);\n•\tSchować i (jeśli to możliwe) zabezpieczyć pojemnik, aby zapobiec rozlaniu.\n\nVII.\tPrzez pozostałą część lotu monitoruj urządzenie i otoczenie."
+    },
+    {
+      "question": "Jesteś pierwszą CC, która spostrzegła pożar na półce bagażowej - opisz swoje działania.  ",
+      "answer": "Oceń sytuację;\n• Zaalarmuj innych CC o sytuacji, krzycząc „BCF, BCF”; \n• Zlokalizuj źródło ognia. Użyj grzbietu dłoni, aby zlokalizować ogień;\n• Załóż rękawice przeciwpożarowe i jeśli obecne są opary/dym, rozważ użycie PBE\n• uchyl półkę i wyładuj halon następnie ją zamknij;\n• Powtórz, jeśli to konieczne;\nKiedy ogień zgaśnie:\n•\tSprawdź źródło ognia;\n•\tUsuń resztki do lermera i zlej wodą."
+    },
+    {
+      "question": "Jako pierwszy z CC słyszysz dźwięk uruchomionego detektora dymu w toalecie. Opisz swoje działania.",
+      "answer": "GORĄCE DRZWI:\n•\tOceń sytuację \n•\tZaalarmuj innych CC o sytuacji, krzycząc „BCF, BCF”; \n•\tOcenić intensywność pożaru; użyj grzbietu dłoni, aby zlokalizować gorące punkty;\n•\tZałóż rękawice przeciwpożarowe\n•\tJeśli obecne są opary/dym, rozważ użycie PBE\n•\tPrzykucnij za drzwiami;\n•\tOtwórz drzwi toalety na tyle, aby włożyć dyszę gaśnicy, \n•\tużyj drzwi jako osłony;\n•\tRozładuj halon i zamknij drzwi;\n•\tPowtórz, jeśli to konieczne;\n\nKiedy ogień zgaśnie:\n•\tOstrożnie wejdź do toalety, trzymając gaśnicę halonową i zakładając PBE na wypadek gęstego dymu;\n•\tUsuń zanieczyszczenia i zamocz wodą\nZIMNE DRZWI\n•\tOceń sytuację;\n•\tZaalarmuj innych CC o sytuacji, krzycząc „BCF, BCF”; \n•\tOcenić intensywność pożaru; użyj grzbietu dłoni, aby zlokalizować gorące punkty;\n•\tZałóż rękawice przeciwpożarowe i PBE; \n•\tTrzymaj się nisko;\n•\tPowoli otwieraj drzwi toalety, używaj ich jako tarczy;\n•\tZlokalizować źródło ognia, skieruj dyszę gaśnicy na podstawę ognia;\n•\tWyładuj halon;\n•\tPowtórz, jeśli to konieczne”\nKiedy ogień zgaśnie:\n•\tUsuń zanieczyszczenia i zamocz wodą"
+    },
+    {
+      "question": "B787 Podczas swojego odpoczynku w OFAR zauważyłeś pożar jako pierwszy - opisz swoje działania.  ",
+      "answer": "W przypadku wykrycia dymu, a co najmniej jeden członek załogi przebywa na odpoczynku załogi:\n•\tOceń sytuację;\n•\tZaalarmuj innych CC o sytuacji, krzycząc „BCF, BCF”; \n•\tZałóż PBE.\n•\tWalcz z ogniem.\nUWAGA: Jeżeli nie można łatwo znaleźć źródła dymu/ognia, należy zapewnić sobie dostęp do\ngłówne wejście aby móc szybko opóścić OFAR.\n•\tCzłonkowie załogi, którzy nie walczą z pożarem, powinni się ewakuować z OFAR i, jeśli to możliwe, nacisnąć wyłącznik HORN SHUT OFF przy wejściu, co spowoduje:\n\n\twyłączenie sygnału dźwiękowego w OFAR\n\tWyskakujące okienko SMOKE DETECTED  na ekranach CAP zostanie zamknięte\n\tInformacje SMOKE DETECTED będzie wyświetlona w dolnym rogu ekranu CAP\n\tW kokpicie na EICAS pozostanie wyświetlona informacja SMOKE REST UPR DR 1 (OFCR) lub 4 (OFAR) do czasu zresetowania systemu wykrywania dymu. \n\n•\tUpewnij się, że drzwi wejściowe są zamknięte.\n•\tNawiąż łączność z kokpitem (komunikator).\n•\tPrzenieść dodatkowy sprzęt awaryjny w pobliże wejścia OFAR/OFCR.\n•\tPomagaj strażakowi w OFAR/OFCR.\n\nUWAGA: Jeżeli do wyjścia z OFCR/OFAR użyto wyłazu, zamknij jego dolną pokrywę, aby ograniczyć rozprzestrzenianie się dymu lub ognia. "
+    },
+    {
+      "question": "Jaką pierwszą czynność wykonasz po wypadnięciu masek tlenowych w kabinie? ",
+      "answer": "•\tZałóż maskę – chwyć najbliższą dostępną maskę tlenową, załóż ją, sprawdź przepływ tlenu, pomagaj innym tylko wtedy, gdy Twoja maska tlenowa jest aktywna.\n•\tUsiądź – na jumpseacie lub zajmij najbliższe miejsce/miejsce (np. kolana pasażera lub na podłodze zaklinuj się między siedzeniami); Nie próbuj wracać na jumpseat, chyba że jest on bardzo blisko.\n•\tZapnij pasy – jeśli to możliwe, zapnij pasy; Poinstruuj pasażerów, aby zapięli pasy bezpieczeństwa\n•\tWykrzycz komendy – \nZAŁOŻYĆ MASKI TLENOWE / OXYGEN MASKS ON x 3\n•\tZabezpiecz sprzęt (jeśli jest w trakcie serwisu) - zablokuj wózki i zaklinuj je pomiędzy siedzeniami, aby zapobiec przesuwaniu się podczas nagłego zniżania.\n•\tPozostań w pozycji siedzącej podczas zniżania się samolotu do usłyszenia komendy z FD – \nSAFE ALTITUDE, SAFE ALTITUDE\n•\tJeśli nie ma oznak zniżania się samolotu – skontaktuj się z załogą lotniczą"
+    },
+    {
+      "question": "Jakie czynności wykonasz po wypadnięciu masek tlenowych przy braku komend z kokpitu i braku gwałtownego zniżania? ",
+      "answer": "W przypadku braku oznak zniżania należy skontaktować się z załogą lotniczą:\n•\tCC powinien założyć maskę od przenośnej butli tlenowej i wejść do kokpitu, aby sprawdzić, czy piloci otrzymują tlen i podjąć wymagane działania;\n•\tJeżeli konieczne jest przejście do przedniej części kabiny w celu sprawdzenia sytuacji w kokpicie, można zastosować metodę maska do maski. Oznacza to wzięcie oddechu przez najbliższą dostępną maskę tlenową, a następnie po kilku krokach od innej maski, aż dojdziesz do kabiny załogi;\n•\tJeśli drzwi są zamknięte, należy użyć kodu/przycisku dostępu awaryjnego do kokpitu."
+    },
+    {
+      "question": "Jakie czynności wykonasz, gdy nie wypadną maski tlenowe, a z kokpitu usłyszysz komendę „EMERGENCY DESCENT, EMERGENCY DESCENT”? ",
+      "answer": "•\tUsiądź – na jumpseacie lub zajmij najbliższe miejsce (np. na kolanach pasażera lub na podłodze zaklinuj się między siedzeniami), nie próbuj wracać na jumpseat, chyba że jest bardzo blisko\n•\tZapnij pasy – jeśli to możliwe, załóż pas bezpieczeństwa, poinstruuj pasażerów, aby zapięli pasy\n•\tKrzycz komendy –\nZAPIĄĆ PASY / FASTEN SEAT BELTS x 3\n•\tZabezpiecz sprzęt serwisowy (jeśli jest w trakcie serwisowania) - Zahamuj wózki/wózki i zaklinuj je pomiędzy siedzeniami, aby zapobiec przesuwaniu się podczas zjazdu.\n•\tPozostań w pozycji siedzącej podczas zniżania się samolotu do usłyszenia komendy z FD – \nSAFE ALTITUDE, SAFE ALTITUDE\n•\tJeśli nie ma oznak zniżania się samolotu – skontaktuj się z załogą lotniczą"
+    },
+    {
+      "question": "Jakie czynności wykonasz po komendzie z kokpitu „SAFE ALTITUDE, SAFE ALTITUDE”? ",
+      "answer": "Jeżeli zastosowano maski tlenowe:\n•\tKrzycz komendy – \nZDJĄĆ MASKI TLENOWE/ OXYGEN MASKS OFF x 3\n\n        Dalsze obowiązki:\n•\tSprawdź innych CC i pasażerów;\n•\tSprawdź toalety, bufety, OFCR / OFAR;\n•\tSprawdź kabinę pod kątem uszkodzeń i zgłoś do PIC;\n•\tPomagaj innym i udzielaj pierwszej pomocy oraz podawaj tlen, jeśli to konieczne;\n•\tUspokój pasażerów\n•\tSkontaktuj się z FD, aby poinformować o statusie kabiny"
+    },
+    {
+      "question": "W jaki sposób udzielisz pomocy nieprzytomnemu oddychającemu pilotowi?",
+      "answer": "SCCM lub wyznaczony CC powinien natychmiast udać się do kokpitu. Jeżeli drzwi nie zostaną otwarte na żądanie, należy użyć kodu dostępu awaryjnego.\na)\tPodciągnąć niezdolnego pilota do pionu;\nb)\tSprawdź ABC\nc)\tUtrzymuj drożność dróg oddechowych\nd)\tZapnij pasy biodrowo barkowe\ne)\tZabezpiecz ręce pilota pod pasami barkowymi\nf)\tZablokuj pasy za pomocą dźwigni z kulką z boku fotela.\ng)\tOdsuń siedzenie całkowicie do tyłu/na zewnątrz;\nh)\tZdejmij stopy pilota z pedałów steru kierunku;\ni)\tZałóż maskę tlenową ze stanowiska tlenowego dla pilotów;\nj)\tPrzełączyć regulator w tryb emergency.\nk)\tPomóż PIC zgodnie z jego poleceniami "
+    },
+    {
+      "question": "W jaki sposób udzielisz pomocy nieprzytomnemu/nieoddychającemu pilotowi? ",
+      "answer": "SCCM lub wyznaczony członek załogi powinien natychmiast udać się do kabiny załogi i wejść do niej. Jeżeli drzwi nie zostaną otwarte na żądanie, należy użyć kodu dostępu awaryjnego.\na)\tPodciągnąć niezdolnego pilota do pionu;\nb)\tSprawdź ABC\nPo uzyskaniu pozwolenia od PIC na zabranie nieprzytomnego nieoddychającego pilota:\nc)\tZabezpiecz pilota pasami jeżeli nie jest zapięty\nd)\tOdsuń siedzenie całkowicie do tyłu/na zewnątrz;\ne)\tPodnieść podłokietnik;\nf)\tOdepnij pasy bezpieczeństwa \ng)\tprzekręć klamrę w dowolnym kierunku;\nh)\tNie pozwalaj, aby nogi poruszały wolantem lub dotykały pedałów;\ni)\tWyjmij pilota z fotela za pomocą „chwytu Rautek” i umieść go w odpowiednim miejscu w celu udzielenia pierwszej pomocy.\nj)\tNatychmiast rozpocznij resuscytację, gdy pilot nie reaguje i nie oddycha;\nk)\tPoproś o pomoc osobę posiadającą kwalifikacje medyczne (jeżeli jest) lub inną CC. Zadzwońcie do medlink.\nl)\tPomóż PIC zgodnie z jego poleceniami"
+    }
+  ],
+  "Sprzęt awaryjny": [
+    {
+      "question": "Co podlega przedstartowej kontroli PBE? Omów sposób użycia i zabezpieczenia po użyciu PBE. ",
+      "answer": "nan"
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli gaśnicy halonowej? Omów sposób użycia gaśnicy. (podaj konkretny rodzaj)",
+      "answer": "nan"
+    },
+    {
+      "question": "Opisz sposób użycia gaśnicy halonowej. (Można wykorzystać akronim PASS). ",
+      "answer": "PULL pin out - Wyjmij zawleczkę (Trzymaj gaśnicę pionowo)\nAIM the nozzle at the base of fire from a safe distance - Skieruj dyszę gaśnicy na podstawę ognia z bezpiecznej odległości.\nSQUEEZE - The operating lever to discharge the fire extinguishing agent – Ściśnij dźwignię gaśnicy aby uwolnić środek gaśniczy.\nSWEEP - The nozzle from side to side until fire is out. Move forward or around the fire. Area as fire diminishes - Gaś za pomocą ruchu zamiatającego z boku na bok."
+    },
+    {
+      "question": "Dlaczego klapka w koszu na śmieci w toalecie powinna być zawsze szczelnie zamknięta? ",
+      "answer": "Aby uszczelnić okolicę kosza na śmieci i ograniczyć dopływ tlenu do niej. To usprawni działanie środka gaśniczego uwolnionego z automatycznej gaśnicy halonowej pod umywalką  i zapobiegnie rozprzestrzenianiu się ognia."
+    },
+    {
+      "question": "Jakie rodzaje pożarów możemy ugasić gaśnicą halonową? ",
+      "answer": "Wszystkie rodzaje pożarów od A do F"
+    },
+    {
+      "question": "Jakiej gaśnicy użyjesz w kokpicie i dlaczego? ",
+      "answer": "Halonowej ponieważ w kokpicie są urządzenia elektryczne, których nie można gasić wodną."
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli w gaśnicy wodnej? (zadaj pytanie, jeśli gaśnica wodna jest na wyposażeniu samolotu) ",
+      "answer": "CSI i metalowa plomba na rękojeści."
+    },
+    {
+      "question": "Jakiego rodzaju pożar można ugasić gaśnicą wodną? (zadaj pytanie, jeżeli gaśnica wodna jest na wyposażeniu samolotu)",
+      "answer": "Do gaszenia pożarów klasy A czyli zwykłe stałe materiały palne, takie jak papier, drewno i tkaniny oraz do schładzania ugaszonych pożarów."
+    },
+    {
+      "question": "Podaj zastosowanie toporka, powiedz czy może być użyty w pobliżu kabli elektrycznych pod napięciem? ",
+      "answer": "Rękojeść pokryta jest warstwą izolacyjną co umożliwia korzystanie z toporka w pobliżu kabli elektrycznych pod napięciem. Toporek może być zastosowany do przecinania lub podważania paneli/ ścianek jeżeli potrzebujemy się dostać do przestrzeni za nimi w celu ugaszenia pożaru. "
+    },
+    {
+      "question": "Do czego służą rękawice pożarnicze? ",
+      "answer": "Rękawice służą do ochrony. Rąk przed gorącymi powierzchniami. Do usuwania gorących nie palących się przedmiotów oraz spalonych resztek.  "
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli w rękawicach pożarniczych?  ",
+      "answer": "CSI oraz brak śladów przypalenia "
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli detektora dymu w toalecie?  ",
+      "answer": "Nienaruszony ani nie zasłonięty detektor i świecąca się zielona dioda. "
+    },
+    {
+      "question": "Co oznacza czerwona dioda świecąca światłem stałym na detektorze dymu?",
+      "answer": "Wykrycie dymu. "
+    },
+    {
+      "question": "Co oznacza zielona dioda świecąca światłem stałym na detektorze dymu?",
+      "answer": "Detektor dymu jest sprawny.  "
+    },
+    {
+      "question": "Co oznacza migająca czerwona dioda na detektorze dymu? ",
+      "answer": "Detektor jest niesprawny. Toaleta musi zostać zablokowana. Usterkę należy wpisać do LDP kod A. "
+    },
+    {
+      "question": "Co oznacza migająca zielona dioda na detektorze dymu?",
+      "answer": "Detektor wymaga konserwacji. Toaleta może być używana. Po locie należy wpisać do LDP kod A. "
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli w butli tlenowej? (podaj rodzaj butli) ",
+      "answer": "SINGLE OUTLET type (311l) : CSI Pokrętło ON/OFF jest wyłączone ; Okno nad manometrem czerwone. Ciśnienie tlenu na manometrze (pomiędzy 1500 a 1850 psi); Jedna maska ​​w woreczku przymocowanym do zaworu . DUAL OUTLET type (311l): CSI Ciśnienie tlenu na manometrze (pomiędzy 1500 a 2000 psi); Jedna maska ​​w woreczku przymocowanym do zaworu HI/CZERWONEGO. CONSTANT FLOW type (311l) CSI Ciśnienie tlenu na manometrze (pomiędzy 1500 a 2000 psi); Jedna maska ​​w woreczku przymocowanym do zaworu HI/CONSTANT FLOW "
+    },
+    {
+      "question": "Omów sposób użycia butli tlenowej. (podaj rodzaj butli) ",
+      "answer": "SINGLE OUTLET type (311l) \nWyjmij maskę z opakowania \nObracaj pokrętłem, aż w okienku pojawi się żądane natężenie przepływu; \nSprawdź przepływ tlenu, (słychać syczenie) \nUmieść maskę na nosie i ustach i wyreguluj opaskę; \nPoinstruuj pasażera, aby oddychał normalnie; \nZabezpieczyć butlę blisko pasażera; \nOkresowo sprawdzaj wskaźnik ciśnienia; \nPo użyciu zamknij zawór odcinający. \n\nDUAL OUTLET type (311l) / CONSTANT FLOW type (311l) \nWyjmij maskę z opakowania \nJeśli nie jest podłączona do zaworu to podłącz do pożądanego zaworu \nObróć pokrętło ON/OFF przeciwnie do ruchu wskazówek zegara; \nUmieść maskę na nosie i ustach i wyreguluj opaskę; \nPoinstruuj pasażera, aby oddychał normalnie; \nZabezpieczyć butlę blisko pasażera; \nOkresowo sprawdzaj wskaźnik ciśnienia; \nPo użyciu zamknij zawór odcinający. "
+    },
+    {
+      "question": "Do jakiej wartości możesz rozładować butle tlenową, jeśli zachodzi potrzeba jej użycia w celach terapeutycznych i dlaczego?  ",
+      "answer": "W butli pozostawiamy 500 PSI, tak aby w razie dekompresji można było z niej jeszcze skorzystać."
+    },
+    {
+      "question": "Jak postąpisz z nieszczelną butlą tlenową? ",
+      "answer": "1) Wyjmij butlę ze stanowiska;  \n2) Podłącz maski do wszystkich dostępnych zaworów;  \n3) Przekręć pokrętło na ON lub ustaw 4l;  \n4) Owiń butlę kocem lub innym materiałem;  \n5) Schowaj butlę w toalecie;  \n6) Zamknij i zablokuj drzwi toalety;  \n7) Po upewnieniu się, że butla jest pusta pozostaw drzwi toalety zamknięte i zablokowane przez kolejne 10 minut  \n8) Informuj SCCM i FC o wszystkim na bierząco. "
+    },
+    {
+      "question": "W jaki sposób podamy tlen infantowi z przenośnej butli tlenowej? ",
+      "answer": "Tlen podajemy 2l i nie zakładamy maski na twarz tylko trzymamy ją przed twarzą inf. "
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli apteczki typu FAK? ",
+      "answer": "CSI \nNienaruszona BIAŁA lub NIEBIESKA plomba\nData ważności "
+    },
+    {
+      "question": "Jakie dokumenty znajdziesz w apteczce typu FAK? ",
+      "answer": "Medical Incident Report Form - przypadku użycia apteczki należy wypełnić datę. Nazwisko. Pasażera. Diagnozę medyczną. Oraz nazwę użytego leku, Imię i nazwisko CC Oraz imię i nazwisko lekarza. Jeżeli pomagał. Numer lotu. Numer plomby, zamknięcia apteczki. Wypełniony dokument należy umieścić ponownie w apteczce. \n\nRegister of used medicines – Należy Wypełnić zawsze, gdy używamy apteczki FAK. Wpisać ilość pozostawionego leku, numer lotu., numer plomby zamykającej apteczkę, imię i nazwisko CC, datę przeciw. Oraz uwagi. Na przykład. Numer plomby, jeżeli nie była zgodna z plombą wpisaną poprzednio w dokumencie Lub Jeżeli zauważyliśmy niezgodność w ilości pozostawionych leków. \n\nList of contents and dosage - Lista leków wraz ze wskazaniami do stosowania, dawką jaką należy podać oraz przeciwwskazaniami do stosowania tego leku. \n\nBasic Life suport cards -  informacje dla ratowników jak reagować w przypadku problemów z oddychaniem i sercem u dorosłych, dzieci i niemowląt. \n\nFirst Aid Handbook - To rozdział 5 i 3  z CCM. Zawiera procedury dla personelu pokładowego dotyczące pierwszej pomocy i użycia sprzętu medycznego, apteczki medycznej EMK. \n\nMedical Assessment Checklist - ten dokument porządkuje czynności podczas udzielania pierwszej pomocy, jest używany do opisywania i monitorowania przypadku medycznego i ułatwia przekazanie tych informacji w przypadku kontaktu z Medlink. W przypadku jakiegokolwiek incydent tu medycznego na pokładzie, CC zobowiązane są do wypełnienia dokumentu podczas przeprowadzania wywiadu z chorym lub rannym pasażerem lub członkiem załogi. Ten dokument dostępny jest również na sali briefingowej. Każda CC jest zobowiązana do posiadania 2 kopii na każdy lot. Zdjęcie dokumentu należy dołączyć do raportu z lotu a wypełniony dokument należy umieścić w skrzynce na sali briefingowej w przeciągu 72h. \n\nSealing Instructions  "
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli apteczki typu AME? ",
+      "answer": "CSI \nNienaruszona BIAŁA lub NIEBIESKA plomba \nData ważności "
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli apteczki typu EMK? ",
+      "answer": "CSI \nNienaruszona BIAŁA lub CZERWONA plomba \nData ważności "
+    },
+    {
+      "question": "Opisz sposób kontroli przedstartowej AED Zoll/Samaritan (wybierz ten, który znajduje się w samolocie). ",
+      "answer": "ZOLL AED: \nCSI \nIndykator OK na defibrylatorze. \n\nSAM (SAMARITAN) AED \nCSI \nMigający zielony indykator. "
+    },
+    {
+      "question": "Omów sposób sprawdzenia ELT (podaj konkretny model)  ",
+      "answer": "RESCU 406 SE – CSI i Antena złożona i przymocowana paskiem \nADT 406 S – CSI \nKANNAD 406 AS – CSI \nRESCU 406 SG – CSI "
+    },
+    {
+      "question": "Omów sposób uruchomienia ELT po lądowaniu w przygodnym terenie (podaj konkretny model). ",
+      "answer": "RESCU 406 SE:\n1) Wyprostuj antenę zrywając taśmę mocującą. \n2) Zerwij taśmę trzymającą czerwoną smycz i wyciągnij z ELT; \n3) Przestaw przełącznik w pozycję XMT – obróć dolną pokrywę. \n4) Umieść ELT pionowo w obszarze wolnym od przeszkód na najwyższym podłożu. Trzymaj się 10m od niego. \nABY WYŁĄCZYĆ PRZESTAW NA OFF \n\nADT 406 S:\n1) Ustaw przełącznik w pozycji ON. \n2) ELT zacznie działać po 30 sek. \n3) Dioda świecąca – ELT działa. \n4) Umieść ELT pionowo w obszarze wolnym od przeszkód na najwyższym podłożu. Trzymaj się 10m od niego. \nABY WYŁĄCZYĆ PRZESTAW NA OFF \n\nKANNAD 406 AS:\n1) Uwolnij antenę z pływaka; \n2) Pociągnij i przesuń przełącznik do pozycji ON; \n3) Umieść ELT pionowo w obszarze wolnym od przeszkód na najwyższym podłożu. Trzymaj się 10m od niego. \nABY WYŁĄCZYĆ PRZESTAW NA OFF \n\nRESCU 406 SG:\n1) Ustaw przełącznik w pozycji ON = ELT zacznie działać \n3) Umieść ELT pionowo w obszarze wolnym od przeszkód na najwyższym podłożu. Trzymaj się 10m od niego. \nABY WYŁĄCZYĆ PRZESTAW NA OFF "
+    },
+    {
+      "question": "Omów sposób uruchomienia ELT po lądowaniu na wodzie. (podaj konkretny model). ",
+      "answer": "RESCU 406 SE  \n1) Przymocuj smycz do trapu/tratwy lub kamizelki. \n2) Przełącznik – ARM = w wodzie zacznie działać automatycznie lub zmień na pozycję XMT = włącza. \nABY WYŁĄCZYĆ PRZESTAW NA OFF \n\nADT 406 S  \n1) Przymocuj smycz do trapu/tratwy lub kamizelki. \n2) Przełącznik – ARMED = po umieszczeniu w wodzie zacznie działać automatycznie po 2 sek., lub zmień na pozycję ON = włącza ELT po 30 sek. \nABY WYŁĄCZYĆ PRZESTAW NA OFF \n\nKANNAD 406 AS  \n1) Uwolnij antenę z pływaka; \n2) Upewnij się, że ELT znajduje się w pozycji „ARM” = w wodzie zacznie działać automatycznie. \n3) Przymocuj smycz do trapu/tratwy lub kamizelki. \nABY WYŁĄCZYĆ PRZESTAW NA OFF \n\nRESCU 406 SG \n1) Upewnij się, że ELT znajduje się w pozycji „ARM” = w wodzie zacznie działać automatycznie. \n2) Przymocuj smycz do trapu/tratwy lub kamizelki. \nABY WYŁĄCZYĆ PRZESTAW NA OFF "
+    },
+    {
+      "question": " Jakie miejsce wybierzemy uruchamiając ELT w przygodnym terenie? ",
+      "answer": "Najwyższy wolny od przeszkód obszar. "
+    },
+    {
+      "question": "Wymień 3 elementy sygnalizacyjne wchodzące w skład pakietu awaryjnego. ",
+      "answer": "Flary ogniowo dymne \nLatarka \nŚrodek do zabarwiania wody \nLusterko sygnalizacyjne \ngwizdek "
+    },
+    {
+      "question": "Wymień 3 środki pierwszej pomocy wchodzące w skład pakietu awaryjnego.",
+      "answer": "Bandaże kompresyjne \nPlastry \nChusta trójkątna \nWysokoenergetyczna sacharoza \nMaść do oczu \nŚrodek wziewny z amoniakiem \nGaziki antyseptyczne "
+    },
+    {
+      "question": "Opisz sposób kontroli przedstartowej Polar Survival Kit? ",
+      "answer": "CSI"
+    },
+    {
+      "question": "Ile kamizelek ratunkowych powinno znajdować się minimalnie na pokładzie samolotu? ",
+      "answer": "Tyle ile pasażerów dorosłych, dzieci i załogi. "
+    },
+    {
+      "question": "Jakiego koloru są kamizelki ratunkowe dla pasażerów i załogi? ",
+      "answer": "Żółte dla pasażerów, czerwone dla załogi. "
+    },
+    {
+      "question": "Do czego służy dodatkowa taśma w kamizelce ratunkowej dla infanta? ",
+      "answer": "Aby opiekun dziecka ją trzymał w czasie i po ewakuacji, w ten sposób nie utraci kontaktu z dzieckiem. "
+    },
+    {
+      "question": "Jak możesz zabezpieczyć infanta do startu i lądowania, gdy na pokładzie masz niewystarczającą ilość pasów dla infantów?",
+      "answer": "Można zabezpieczyć infanta za pomocą przedłużacza pasa.  "
+    },
+    {
+      "question": "Co należy zrobić z wyposażeniem dodatkowym, które zostało na czas lotu przekazane pasażerom, po lądowaniu? ",
+      "answer": "Zebrać i umieścić z powrotem na ich miejscu. "
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli w megafonie? ",
+      "answer": "Megafon typu 1\nCSI oraz Ściśnij uchwyt PTT = specyficzny dźwięk słyszalny z megafonu i świecące światło wskazują, że bateria jest sprawna. \n\nMegafon typu \nCSI oraz wciśnij przycisk ON/OFF = specyficzny dźwięk słyszalny z megafonu wskazują, że bateria jest sprawna "
+    },
+    {
+      "question": "Jakie jest przeznaczenie megafonu? Omów sposób działania. ",
+      "answer": "Megafon używany jest w sytuacji awaryjnej przy niesprawnym systemie PA. \n\nPo ewakuacji służy do kontroli tłumu np. gromadzenia pasażerów w jednym miejscu. \n\nMegafon typu 1:\n1) Owiń taśmę wokół dłoni, trzymając za uchwyt. \n2) Ściśnij uchwyt. \n3) Zbliż usta do mikrofonu; mów trzymając wciśnięty przycisk. \nUWAGA: Nie kieruj na kadłub podczas używania, ponieważ spowoduje to pisk. \nMegafon posiada syrenę/alarm, który aktywuje się po wyjęciu szpilki i może być wyciszony przez ponowne włożenie szpilki. \nJest wyposażony w regulację głośności.  \nCzas działania wynosi około 6h ciągłej pracy. \n\nMegafon typu 2:\n1) Owiń taśmę wokół dłoni, trzymając za uchwyt. \n2) Wciśnij przycisk ON/OFF . \n3) Zbliż usta do mikrofonu; mów trzymając wciśnięty przycisk. "
+    },
+    {
+      "question": "Co podlega przedstartowej kontroli latarki? (podaj konkretny typ). ",
+      "answer": "Latarka Type 1\nCSI \nWciśnij przycisk push-to-test – zaświeci się zielona dioda oznaczająca sprawną baterię \n\n\nLatarka Type 2\nCSI \nCzerwona dioda miga co 6-10 sekund \n\nLatarka Type 3\nCSI \nŚwiecąca na stałe czerwona dioda. "
+    },
+    {
+      "question": "W jakiej sytuacji możemy korzystać z latarek?  ",
+      "answer": "Latarki należy wyjąć ze stanowiska i używać wyłącznie (w warunkach słabego oświetlenia) w sytuacjach niestandardowych i awaryjnych, podczas ewakuacji i działań po ewakuacji.. "
+    },
+    {
+      "question": "Do czego służy MRT? (zadaj pytanie, jeśli MRT jest na wyposażeniu samolotu) ",
+      "answer": "Aby otworzyć PSU, gdy maski tlenowe nie wypadną;  \nAby otworzyć schowki/panele w toaletach (tylko ERJ);  \nAby wyłączyć sygnał dźwiękowy czujnika dymu. "
+    },
+    {
+      "question": "W czasie wykonywania przedstartowej kontroli wyposażenia w samolocie odkrywasz, że PBE jest niesprawny. Co powinieneś zrobić? ",
+      "answer": "Należy zgłosić ten fakt SCCM, która zgłosi to obsłudze naziemnej lub jeżeli ich nie ma to kapitanowi."
+    }
+  ],
+  "Komendy": [
+    {
+      "question": "Jakie komendy podasz pasażerom po usłyszeniu komendy „RAPID DEBOARDING, RAPID DEBOARDING” i zapowiedzi CC1? ",
+      "answer": "DO WYJŚĆ / GET OUT \nZOSTAW WSZYSTKO / LEAVE EVERYTHING "
+    },
+    {
+      "question": "Jakiej komendy, zgodnie z procedurą, spodziewasz się z kokpitu w przypadku silnej turbulencji? ",
+      "answer": "TURBULENCE. TAKE YOUR SEATS "
+    },
+    {
+      "question": "Jakiej komendy, zgodnie z procedurą, spodziewasz się z kokpitu w przypadku dekompresji?",
+      "answer": "EMERGENCY DESCENT \nEMERGENCY DESCENT "
+    },
+    {
+      "question": "Jaką sekwencję komend podasz pasażerom po usłyszeniu komendy „EMERGENCY DESCENT, EMERGENCY DESCENT”, jeżeli nie wypadną maski tlenowe? ",
+      "answer": "ZAPIĄĆ PASY/ FASTEN SEATBELTS x 3 "
+    },
+    {
+      "question": "Jaką sekwencję komend podasz pasażerom po usłyszeniu komendy „EMERGENCY DESCENT, EMERGENCY DESCENT”, jeżeli wypadną maski tlenowe? ",
+      "answer": "ZAŁOŻYĆ MASKI TLENOWE / OXYGEN MASKS ON x 3 "
+    },
+    {
+      "question": "W jaki sposób i jakiego meldunku użyjesz zgłaszając przygotowanie kabiny do lądowania awaryjnego? (do CC1/CPT) ",
+      "answer": "CABIN READY FOR EMERGENCY LANDING "
+    },
+    {
+      "question": "Jaką komendę, zgodnie z procedurą, poda CPT przed planowanym lądowaniem awaryjnym/wodowaniem? ",
+      "answer": "BRACE POSITION \nBRACE POSITION "
+    },
+    {
+      "question": "Jaką komendę podasz pasażerom po usłyszeniu z kokpitu „BRACE POSITION, BRACE POSITION”? ",
+      "answer": "POCHYL SIĘ x 3 \nHEAD DOWN x 3 "
+    },
+    {
+      "question": "Jaką komendę usłyszysz z kokpitu, zgodnie z procedurą, po lądowaniu awaryjnym i zatrzymaniu się samolotu? ",
+      "answer": "CREW AT STATIONS \nGREW AT STATIONS "
+    },
+    {
+      "question": "Jakiej komendy użyje CC, po nieudanej próbie kontaktu z kokpitem, przed rozpoczęciem ewakuacji? ",
+      "answer": "EVACUATE \nEVACUATE "
+    },
+    {
+      "question": "Po jakiej komendzie rozpoczyna się każda ewakuacja? ",
+      "answer": "EVACUATE \nEVACUATE"
+    },
+    {
+      "question": "Podaj sekwencję komend, po usłyszeniu „EVACUATE, EVACUATE”, po nieplanowanym wodowaniu prowadząc ewakuację przez drzwi…. ",
+      "answer": "ROZPIĄĆ PASY / OPEN SEAT BELTS \nZAŁÓŻ KAMIZELKĘ / LIFE VEST ON \nDO WYJŚĆ / GET OUT \nZOSTAW WSZYSTKO / LEAVE EVERYTHING \n\nTĘDY / THIS WAY \nTY, POMAGAJ INNYM / YOU, HELP THE OTHERS \nNAPEŁNIJ KAMIZELKĘ / INFLATE THE VEST \nZSUŃ SIĘ DO TRATWY/ SLIDE DOWN THE RAFTS \n(doors with rafts) \nor \nSKACZ/ JUMP "
+    },
+    {
+      "question": "Podaj sekwencję komend, po usłyszeniu „EVACUATE, EVACUATE”, po lądowaniu awaryjnym prowadząc ewakuację przez drzwi… ",
+      "answer": "ROZPIĄĆ PASY / OPEN SEAT BELTS \nDO WYJŚĆ / GET OUT \nZOSTAW WSZYSTKO / LEAVE EVERYTHING \n\n\nTĘDY / THIS WAY \nTY ZOSTAŃ NA DOLE POMAGAJ INNYM / YOU STAY AT THE BOTTOM HELP THE OTHERS \nSKACZ / JUMP \n\nor \nSKACZ, DWOJE NA RAZ / JUMP, TWO AT THE TIME  \n(przy trapach dwusciezkowych) "
+    },
+    {
+      "question": "Podaj sekwencję komend, po „EVACUATE, EVACUATE”, prowadząc ewakuację przez okna awaryjne - planowane wodowanie  ",
+      "answer": "ROZPIĄĆ PASY / OPEN SEAT BELTS \nDO WYJŚĆ / GET OUT \nZOSTAW WSZYSTKO / LEAVE EVERYTHING \nTĘDY / THIS WAY \nTY, POMAGAJ INNYM / YOU, HELP THE OTHERS \nNOGĄ NAJPIERW / FOOT FIRST \nNAPEŁNIJ KAMIZELKĘ / INFLATE THE VEST \nPO SKRZYDLE NA DÓŁ / SLIDE DOWN THE WING "
+    },
+    {
+      "question": "Podaj sekwencję komend, po usłyszeniu „EVACUATE, EVACUATE”, prowadząc ewakuację przez okna - nieplanowane wodowanie  ",
+      "answer": "ROZPIĄĆ PASY / OPEN SEAT BELTS \nZAŁÓŻ KAMIZELKĘ /LIFE VEST ON \nDO WYJŚĆ / GET OUT \nZOSTAW WSZYSTKO / LEAVE EVERYTHING \nTĘDY / THIS WAY \nTY, POMAGAJ INNYM / YOU, HELP THE OTHERS \nNOGĄ NAJPIERW / FOOT FIRST \nNAPEŁNIJ KAMIZELKĘ / INFLATE THE VEST \nPO SKRZYDLE NA DÓŁ / SLIDE DOWN THE WING "
+    },
+    {
+      "question": "Po jakiej komendzie pasażerowie powinni założyć kamizelki ratunkowe w sytuacji wodowania nieplanowanego? ",
+      "answer": "ZAŁÓŻ KAMIZELKĘ /LIFE VEST ON "
+    },
+    {
+      "question": "Jaką komendę podasz podczas ewakuacji, jeżeli twoje wyjście będzie niesprawne, a sprawne będzie wyjście naprzeciwległe? ",
+      "answer": "TĘDY / THIS WAY "
+    },
+    {
+      "question": "Jaką komendę podasz podczas ewakuacji, jeżeli twoje wyjście będzie niesprawne i będzie konieczność przekierowania pasażerów do wyjścia awaryjnego w innej części samolotu? ",
+      "answer": "TAMTĘDY / THAT WAY"
+    },
+    {
+      "question": "Jakiej sekwencji komend użyjesz w przypadku uszkodzenia/rozerwania trapu podczas ewakuacji? ",
+      "answer": "USIĄDŹ, ZSUŃ SIĘ / SIT AND SLIDE "
+    },
+    {
+      "question": "Jaki meldunek i komu podasz po sprawdzeniu kabiny po ewakuacji?",
+      "answer": "CABIN CHECKED \ndo CC znajdującej się przy / w pobliżu wyjścia, którym ja się ewakuuję "
+    },
+    {
+      "question": "Jaki meldunek i komu podasz po sprawdzeniu kabiny po Rapid Deboarding? ",
+      "answer": "CABIN CHECKED \ndo CC znajdującej się przy wyjściu, którym ja się ewakuuję "
+    },
+    {
+      "question": "Jakiej komendy, zgodnie z procedurą, spodziewamy się z kokpitu w sytuacji przegrzanego urządzenia TPED w kokpicie? ",
+      "answer": "CABIN CREW, EMPTY BIN FOR T-PED "
+    },
+    {
+      "question": "Jaką komendę podasz do członków załogi po spostrzeżeniu pożaru fotela/piekarnika? ",
+      "answer": "BCF, BCF"
+    }
+  ],
+  "B787": [
+    {
+      "question": "W jaki sposób nawiążesz łączność z załogą lotniczą, aby poinformować o sytuacji awaryjnej na pokładzie?",
+      "answer": "Za pomocą INT kod 99  "
+    },
+    {
+      "question": "\tOpisz procedurę awaryjnego dostępu do kokpitu. ",
+      "answer": "Drzwi są zablokowane zamkiem elektromechanicznym. Zamek można odblokować na klawiatrze. Klawiatura dostępu awaryjnego do kokpitu znajduje się przy drzwiach do FD od strony kabiny pasażerskiej. \n\nKod dostępu awaryjnego służy do uzyskania dostępu do FD w przypadku awarii lub niesprawności FC.  \n\n- Zasłoń zasłonki \n- Upewnij się, że nie ma pasażerów w toalecie lub w bufecie \n- wprowadź ustalony kod dostępu awaryjnego , a następnie naciśnij klawisz ENT.  \n\nWpisanie prawidłowego kodu dostępu awaryjnego powoduje włączenie sygnału dźwiękowego i zapalenie się BURSZTYNOWEGO światła na klawiaturze.  \n\n świecą na CZERWONO - drzwi zablokowane – odmowa dostępu do kokpitu przez pilotów  \n\nświecą na POMARAŃCZOWO - wprowadzono prawidłowy kod dostępu awaryjnego. \n\nświecą na ZIELONO.-drzwi są odblokowane  \n\nPo aktywacji powrócą do stanu nieaktywnego 5 minut po ostatnim naciśnięciu klawisza.  \n\nKontrolki dostępu pozostają w stanie nieaktywnym do momentu naciśnięcia pierwszego klawisza.  \n\nGdy zamek elektroniczny jest nieczynny, FC musi użyć mechanicznego zamka drzwi, aby przestrzegać zasad ograniczonego dostępu do FD. Awaryjny dostęp do FD jest wtedy możliwy przy użyciu klucza przekazanego SCCM przez PIC. FC może ustawić zamek mechaniczny tak, aby drzwi pozostały zamknięte, a klucza nie można było użyć. "
+    },
+    {
+      "question": "Jakie elementy drzwi podlegają kontroli podczas pre-flight door check? ",
+      "answer": "Dźwignia wyboru trybu pracy jest na zielonym polu w pozycji MANUAL \n\nWSKAŹNIK/piktogram wyboru trybu pracy jest podświetlony (ludzik wychodzący z samolotu) \n\nOkno drzwi jest rozjaśnione ( NIE świeci się niebieska dioda) \n\nWskaźnik zamknięcia drzwi świeci się na ZIELONO (zielona kłódka na drzwiach pod oknem) \n\nDźwignia zamykania drzwi jest pozycji poziomej (drzwi zamknięte \n\nCiśnienie butli trapu – wskaźnik na zielonym polu "
+    },
+    {
+      "question": "Jak można rozjaśnić okno w drzwiach, jeśli system rozjaśniania się zablokował? ",
+      "answer": "Przy usterce systemu okna automatycznie się rozjaśniają i nie można ich przyciemnić. \n\nStopień przyciemnienia okna jest kontrolowany za pomocą przycisku na drzwiach. Naciśnięcie górnej części przełącznika rozjaśni okno, naciśnięcie dolnej części przyciemni je. Diody LED pokazują stopień przyciemnienia okna, który można ustawić tylko w jednej z dwóch skrajnych pozycji:  \n• całkowicie przyciemnione – świeci niebieska dioda LED;  \n• całkowicie rozjaśnione – dioda LED nie świeci "
+    },
+    {
+      "question": "Co oznacza kolor różowy na MCL? ",
+      "answer": "Różowy stały: \n\ndzwoni CC do CC \ndzwoni  z  OFCR / OFAR \n\nRÓŻOWY MIGAJĄCY \nALL CALL (51) z CC / OFCR / OFAR = do wszystkich \nCC ALL (52) z CC / OFCR / OFAR= do wszystkich stanowisk CC i do OFAR "
+    },
+    {
+      "question": "Co oznacza kolor zielony na MCL? ",
+      "answer": "Zielony migający - ALL CALL (51) z kokpitu \n\nZielony stały dzwoni FD do CC "
+    },
+    {
+      "question": "Co oznacza kolor niebieski na MCL? ",
+      "answer": "Wezwanie od pasażera "
+    },
+    {
+      "question": "Co oznacza stałe światło koloru bursztynowego na MCL?",
+      "answer": "Amber stały – wezwanie z toalety "
+    },
+    {
+      "question": "Co oznacza migające światło koloru bursztynowego na MCL? ",
+      "answer": "Amber migający – wykryty dym – TOALETA / OFCR / OFAR "
+    },
+    {
+      "question": "W ilu ścieżkowy trap wyposażone są drzwi, za które jesteś odpowiedzialny? ",
+      "answer": "B787 -8 \n\n1L / 1R / 3L / 3R – trapy jednościeżkowe \n\n2L / 2R / 4L / 4R – trapy dwuścieżkowe \n\nB787 -9 \n\n3L / 3R – trapy jednościeżkowe \n\n1L / 1R / 2L / 2R / 4L / 4R – trapy dwuścieżkowe "
+    },
+    {
+      "question": "Co oznacza podświetlony na biało indykator MANUAL na panelu MSP? ",
+      "answer": "Manual czyli wszystkie drzwi są rozbrojone "
+    },
+    {
+      "question": "Co oznacza podświetlony na niebiesko indykator AUTO na panelu MSP? ",
+      "answer": "Wszystkie drzwi są uzbrojone "
+    },
+    {
+      "question": "Gdzie przeprowadzisz indywidualny briefing pasażerów podczas przygotowania kabiny do lądowania awaryjnego/wodowania?  ",
+      "answer": "Przy wyjściu, przy którym będzie nam pomagał. "
+    },
+    {
+      "question": "Kto jest odpowiedzialny za włączenie oświetlenia awaryjnego? Podaj lokalizację tego włącznika w kabinie pasażerskiej. ",
+      "answer": "CC3. Włącznik znajduje się na panelu MSP przy jumpseacie CC3. "
+    },
+    {
+      "question": "Kiedy zostanie uruchomione zewnętrzne oświetlenie awaryjne, wymień elementy, które wchodzą w jego skład?   ",
+      "answer": "Oświetlenie awaryjne zewnętrzne uruchamia się automatycznie gdy trap się napełni ponieważ skłeda się z oświetlenia trapu. \n\nŚwiatła wzdłuż ścieżek trapu \nŚwiatła progu trapu "
+    },
+    {
+      "question": "Gdzie znajduje się i do czego służy przestrzeń asekuracyjna? ",
+      "answer": "Przy każdych drzwiach znajduje się co najmniej jedna „przestrzeń asekuracyjna”. Jest to obszar pomiędzy progiem drzwi a pojedynczym jumpseatem, wyposażona w uchwyt.  \n\nDrzwi wyposażone w trap dwuścieżkowy mają dwie takie przestrzenie, \n\ndrzwi wyposażone w trap jednościeżkowy mogą mieć jedną dwie takie przestrzenie.  \n\nW sytuacji awaryjnej CC przeprowadzająca ewakuację stoi w przestrzeni asekuracyjnej, unikając w ten sposób blokowania drogi ewakuacyjnej. Zabezpiecza się, trzymając uchwyt jedną ręką, a drugą kierując tempem ewakuacji. "
+    },
+    {
+      "question": "Do czego służy EPAS i jak postąpisz, gdy system nie zadziała?",
+      "answer": "EPAS – Emergency Power Assisi System = jest to system wspomagający otworzenie uzbrojonych drzwi. Działa tylko gdy drzwi są uzbrojone. "
+    },
+    {
+      "question": "Co to jest system EVAC i kiedy należy go uruchomić?  ",
+      "answer": "EVAC – Evacuation Signal System = Uruchamiamy go przy  rozpoczęciu ewakuacji. \n\nEVAC działa tylko na ziemi. Uruchomienie EVAC na jednym stanowisku powoduje: \n\nUruchomienie sygnału dźwiękowego przy wszystkich stanowiskach ASP \n\nPodświetlenie przycisku włączającego EVAC przy tym stanowisku gdzie został włączony jako pierwszy \n\nMigające światełko EVAC na wszystkich ASP \n\nDezaktywowanie włączników EVAC na pozostałych ASP. Dlatego system można wyłączyć tylko tam gdzie został włączony. Natomiast dźwięk można wyłączyć na każdym ASP. "
+    },
+    {
+      "question": "Kiedy użyjesz przycisku HORN SHUT OFF na panelu ASP? ",
+      "answer": "To przycisk do wyłączenia sygnału dźwiękowego EVAC i używamy go gdy wyjście jest niesprawne i ewakuacja przez nie jest niemożliwa. "
+    },
+    {
+      "question": "W jaki sposób i kiedy odczepiamy tratwę od samolotu po wodowaniu?",
+      "answer": "Po zakończeniu ewakuacji pasażerów i sprawdzeniu kabiny (jeżeli dotyczy) napełniamy kamizelkę i zsuwamy się do tratwy. Wtedy odczepiamy tratwę od samolotu: \n\nPociągamy za białą rączkę z napisem PULL do odczepiania trapu, która znajduje się pod brezentowym fartuchem u progu drzwi. (White ditching release handle) \n\nTratwa pozostanie połączona z samolotem za pomocą liny. Przecinamy linę nożem, który znajdziemy na burcie blisko miejsca przyczepionej liny. "
+    },
+    {
+      "question": "Kto jest odpowiedzialny za sprawdzenie sekcji po ewakuacji? ",
+      "answer": "CC2 – Sekcja C / CC3 – sekcja B / CC4 – sekcja A "
+    },
+    {
+      "question": "Jaka jest główna, a jaka alternatywna droga ewakuacji z kokpitu? ",
+      "answer": "Główna przez drzwi do kokpitu \nAlternatywna przez wyłaz w kokpicie "
+    },
+    {
+      "question": "Jaka jest główna, a jaka alternatywna droga ewakuacji z OFARu? ",
+      "answer": "Główna przez drzwi do OFAR \nAlternatywna przez wyłazy leżnka nr 3 i nr 5 "
+    },
+    {
+      "question": "Wymień 3 środki sygnalizacyjne znajdujące się w pakiecie awaryjnym. ",
+      "answer": "Flary ogniowo dymne \nLatarka \nŚrodek do zabarwiania wody \nLusterko sygnalizacyjne \nGwizdek "
+    },
+    {
+      "question": "Wymień 3 środki pierwszej pomocy znajdujące się w pakiecie awaryjnym. ",
+      "answer": "Bandaże kompresyjne \nPlastry \nChusta trójkątna \nWysokoenergetyczna sacharoza \nMaść do oczu \nŚrodek wziewny z amoniakiem \nGaziki antyseptyczne "
+    },
+    {
+      "question": "Co wchodzi w skład pakietu polarnego A?  ",
+      "answer": "Lista zawartości pakietu i lista minialnej ilości dopuszczonej zawartości w przypadku wystąpienia niezgodności \n3 dodatkowe czerwone plomby (pakiet oryginalnie jest zaplombowany na żółto) \n6 kombinezonów polarnych w rozmiarze M \n6 par rękawic dla załogi \n80 szt. NRC -  kocy termicznych dla pasażerów "
+    },
+    {
+      "question": "Co wchodzi w skład pakietu polarnego B?  ",
+      "answer": "Lista zawartości pakietu i lista minialnej ilości dopuszczonej zawartości w przypadku wystąpienia niezgodności \n3 dodatkowe czerwone plomby (pakiet oryginalnie jest zaplombowany na żółto) \n4 kombinezony polarne w rozmiarze L  \n4 pary rękawic dla załogi  \n140 szt. NRC – kocy termiczny dla pasażerów  \n1 szt. łopata do śniegu  \n 1 szt. piła do lodu  \n 1 szt. zestaw do topienia lodu/śniegu  "
+    },
+    {
+      "question": "Gdzie znajdują się i do czego służy przełącznik POWER CONTROL?  ",
+      "answer": "W każdym bufecie pod czerwoną klapką. Służy do odcięcia prądu w danym bufecie. "
+    },
+    {
+      "question": "W jaki sposób zostanie zasygnalizowany pożar w toalecie?  ",
+      "answer": "Sygnał dźwiękowy detektora dymu \nNa detektorze zapoli dioda będzie świeciła czerwonym stałym światłem \nBursztynowy przycisk nad toaletą będzie migać \nCiągły sygnał w kabinie w okolicy toalety, w której wykryto dym. \nBursztynowa migająca dioda na MCL \nWyskakujące okienko SMOKE DETECTED  pojawi się na wszystkich CAP. \nW kokpicie na EICAS pozostanie wyświetlona informacja o wykryciu dymu "
+    },
+    {
+      "question": "Ile detektorów dymu należy sprawdzić w OFAR wykonując przedstartową kontrolę sprzętu awaryjnego? ",
+      "answer": "8 detektorów "
+    },
+    {
+      "question": "Wymień czynności, które wykonasz po wykryciu pożaru w OFAR, gdy nikt nie przebywa w środku? ",
+      "answer": "Oceń sytuację;  \n\nZaalarmuj innych CC o sytuacji, krzycząc „BCF, BCF”;  \nUpewnij się, że drzwi są zamknięte;  \nWyposaż się w gaśnicę halonową i załóż PBE;  \nSprawdź, czy drzwi są zimne czy gorące (użyj grzbietu dłoni).  \n \nJeśli drzwi są gorące: \nOstrożnie odchyl drzwi, zabezpieczając je stopą, tylko na tyle, aby włożyć dyszę gaśnicy; lub \nPozostaw drzwi zamknięte i wybij toporkiem mały otwór w górnej części drzwi, o średnicy dyszy gaśnicy;  \nWyładuj gaśnicę halonową;  \n​​Powtórz w razie potrzeby.  \n\nJeśli drzwi są zimne: \nLekko otwórz drzwi, zabezpieczając je stopą i oceń sytuację wewnątrz;  \nTylko jeśli jest bezpiecznie, wejdź do środka;  \nZlokalizuj źródło ognia/dymu;  \nWyładuj gaśnicę halonową;  \n​​Powtórz w razie potrzeby;  \n\nNaciśnij przycisk HORN SHUT OFF, co spowoduje:  \nwyłączenie sygnału dźwiękowego alarmu w OFAR;  \nZamknięcie okna alarmu SMOKE DETECTED na ekranach CAP (w dolnym rogu ekranu będą wyświetlane tylko informacje SMOKE DETECTED);  \nW kokpicie Informacje SMOKE REST UPR DR 1 (OFCR) lub 4 (OFAR) na ekranie EICAS pozostają  \nwyświetlane do momentu zresetowania systemu wykrywania dymu;  \n \nMonitoruj obszar przez resztę lotu;  \n\nUWAGA: Jeżeli do wyjścia z OFCR/OFAR użyto wyłazu, zamknij jego dolną pokrywę, aby ograniczyć rozprzestrzenianie się dymu lub ognia.  "
+    },
+    {
+      "question": "Wymień czynności, które wykonasz po wykryciu pożaru w OFAR, gdy CC są w środku ?",
+      "answer": "W przypadku wykrycia dymu, a co najmniej jeden członek załogi przebywa na odpoczynku załogi: \n\nOceń sytuację; \nZaalarmuj innych CC o sytuacji, krzycząc „BCF, BCF”;  \nZałóż PBE. \nWalcz z ogniem. \n\nUWAGA: Jeżeli nie można łatwo znaleźć źródła dymu/ognia, należy zapewnić sobie dostęp do główne wejście aby móc szybko opóścić OFAR. \n\nCzłonkowie załogi, którzy nie walczą z pożarem, powinni się ewakuować z OFAR i, jeśli to możliwe, nacisnąć wyłącznik HORN SHUT OFF przy wejściu, co spowoduje: \n\nWyłączenie sygnału dźwiękowego w OFAR \nWyskakujące okienko SMOKE DETECTED  na ekranach CAP zostanie zamknięte \nInformacje SMOKE DETECTED będzie wyświetlona w dolnym rogu ekranu CAP \nW kokpicie na EICAS pozostanie wyświetlona informacja SMOKE REST UPR DR 1 (OFCR) lub 4 (OFAR) do czasu zresetowania systemu wykrywania dymu.  \n\n \nUpewnij się, że drzwi wejściowe są zamknięte. \nNawiąż łączność z kokpitem (komunikator). \nPrzenieść dodatkowy sprzęt awaryjny w pobliże wejścia OFAR/OFCR. \nPomagaj strażakowi w OFAR/OFCR. \n\n\nUWAGA: Jeżeli do wyjścia z OFCR/OFAR użyto wyłazu, zamknij jego dolną pokrywę, aby ograniczyć rozprzestrzenianie się dymu lub ognia."
+    },
+    {
+      "question": "Wymień charakterystyczne dla tego samolotu sygnały, które będą towarzyszyły dekompresji w kabinie? ",
+      "answer": "maski wypadną automatycznie;  \nwłączą się napisy zapiąć pasy (w toaletach NIE);  \nwyłączy się w toaletach znak wróć na miejsce, jeśli był wcześniej włączony;  \nwłączy się pełne oświetlenie kabiny;  \nsłyszalny będzie potrójny sygnał dźwiękowy HI;  \nW kokpicie na wyświetlaczu EICAS przez pierwsze dwie minuty będzie wyświetlany komunikat PASS OXYGEN ON;  \nWłączy się wgrana zapowiedź/komendy do dekompresji  \n\nZAŁOŻYĆ MASKI TLENOWE, OXYGEN MASKS ON x 3; \n Zapowiedź/komendy będzie też słyszalna w słuchawkach podłączonych do foteli. \nwyłączą się wszystkie overhead monitory; \nwyłączą się wszystkie ekrany w fotelach;  \nwyłączy się zasilanie gniazdek w fotelach (dioda LED gniazdek będzie wyłączona). "
+    },
+    {
+      "question": "Wymień charakterystyczne dla tego samolotu sygnały, które będą towarzyszyły dekompresji w OFAR.",
+      "answer": "Ciągły sygnał dźwiękowy w OFAR \nZaświeci się zielony wskaźnik tlenu w części wspólnej OFAR \nmaski wypadną automatycznie, jedna nad każdą z 6 leżanek;  \nwłączą się napisy zapiąć pasy;  \nwłączy się pełne oświetlenie OFAR;  \nWłączy się wgrana zapowiedź/komendy do dekompresji  \nZAŁOŻYĆ MASKI TLENOWE, OXYGEN MASKS ON x 3; \nwyłączy się zasilanie gniazdek przy leżankach "
+    },
+    {
+      "question": "W jaki sposób aktywujesz dopływ tlenu po wypadnięciu maski tlenowej nad jump seatem? ",
+      "answer": "Zwykłe oddychanie uaktywnia dopływ tlenu do masek"
+    },
+    {
+      "question": "W jaki sposób aktywujesz dopływ tlenu po wypadnięciu masek tlenowych z PSU? ",
+      "answer": "Zwykłe oddychanie uaktywnia dopływ tlenu do masek. Do każdej maski przypisana jest dioda, która świeci na zielono gdy maska jest używana. "
+    },
+    {
+      "question": "W jaki sposób otworzysz panel PSU po dekompresji, jeśli nie otworzy się automatycznie? ",
+      "answer": "Poprzez wciśnięcie jednego z zaokrąglonych końców przycisku w PSU, co spowoduje wysunięcie drugiego końca. Obróć przycisk o 180 stopni w kierunku przeciwnym do ruchu wskazówek zegara, aby otworzyć pokrywę PSU. "
+    },
+    {
+      "question": "Jaką pozycję zajmiesz w trakcie zapowiedzi awaryjnej i w których rzędach wykonasz indywidualny briefing pasażerów? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj lokalizację miejsca najmniejszego ryzyka w tym samolocie? (LRBL) ",
+      "answer": "Drzwi 4R "
+    },
+    {
+      "question": "Czym informują zielone diody widoczne w otwartym PSU po dekompresji? ",
+      "answer": "Informuje o ilości używanych masek. "
+    }
+  ],
+  "B737": [
+    {
+      "question": "W jaki sposób nawiążesz łączność z załogą lotniczą, aby poinformować o sytuacji awaryjnej na pokładzie?",
+      "answer": "Wybierając 222 na słuchawce INT  "
+    },
+    {
+      "question": "Opisz procedurę awaryjnego dostępu do kokpitu? ",
+      "answer": "Drzwi są zablokowane zamkiem elektromechanicznym. Zamek można odblokować na klawiatrze. Klawiatura dostępu awaryjnego do kokpitu znajduje się przy drzwiach do FD od strony kabiny pasażerskiej. \n\nKod dostępu awaryjnego służy do uzyskania dostępu do FD w przypadku awarii lub niesprawności FC.  \n\nZasłoń zasłonki \n\nUpewnij się, że nie ma pasażerów w toalecie lub w bufecie \n\nwprowadź ustalony kod dostępu awaryjnego , a następnie naciśnij klawisz ENT.  \n\nWpisanie prawidłowego kodu dostępu awaryjnego powoduje włączenie sygnału dźwiękowego i zapalenie się BURSZTYNOWEGO światła na klawiaturze.  \n\n świecą na CZERWONO - drzwi zablokowane – odmowa dostępu do kokpitu przez pilotów  \n\nświecą na POMARAŃCZOWO - wprowadzono prawidłowy kod dostępu awaryjnego. \n\nświecą na ZIELONO.-drzwi są odblokowane  \n\nPo aktywacji powrócą do stanu nieaktywnego 5 minut po ostatnim naciśnięciu klawisza.  \n\nKontrolki dostępu pozostają w stanie nieaktywnym do momentu naciśnięcia pierwszego klawisza.  \n\nGdy zamek elektroniczny jest nieczynny, FC musi użyć mechanicznego zamka drzwi, aby przestrzegać zasad ograniczonego dostępu do FD. Awaryjny dostęp do FD jest wtedy możliwy przy użyciu klucza przekazanego SCCM przez PIC. FC może ustawić zamek mechaniczny tak, aby drzwi pozostały zamknięte, a klucza nie można było użyć. "
+    },
+    {
+      "question": "Czy otwarcie uzbrojonych drzwi z zewnątrz spowoduje rozbrojenie się trapu?",
+      "answer": "TAK"
+    },
+    {
+      "question": "Jakie elementy drzwi podlegają kontroli podczas pre-flight door check? ",
+      "answer": "Czerwona taśma jest obecna i nie przesłania okienka drzwi. \n\nPręt mocujący trap jest w uchwytach na drzwiach pod skrzynią trapu. \n\nDźwignia zamykania drzwi jest w pozycji poziomej (drzwi zamknięte) \n\nCiśnienie butli trapu – wskaźnik na zielonym polu "
+    },
+    {
+      "question": "Co oznacza różowy kolor na panelu sygnalizacyjnym oraz podwójny dźwięk HI/LO?",
+      "answer": "Dzwoni FC do CC "
+    },
+    {
+      "question": "Co oznacza różowy kolor na panelu sygnalizacyjnym oraz pojedynczy dźwięk HI/LO? ",
+      "answer": "Dzwoni CC do CC "
+    },
+    {
+      "question": "Co oznacza pomarańczowy kolor na panelu sygnalizacyjnym? ",
+      "answer": "Wezwanie z toalety "
+    },
+    {
+      "question": "Jak możemy zresetować wezwanie pasażera z toalety? ",
+      "answer": "Wciskając przycisk nad daną toaletą "
+    },
+    {
+      "question": "Gdzie przeprowadzisz indywidualny briefing pasażerów podczas przygotowania kabiny do lądowania awaryjnego/wodowania i jaką zajmiesz pozycję podczas zapowiedzi awaryjnej? ",
+      "answer": "Przy wyjściu, przy którym będą nam pomagać. Pozycja zgodnie z QRC"
+    },
+    {
+      "question": "Podaj kolejno czynności, które wykonasz po usłyszeniu komendy „EVACUATE, EVACUATE” po wodowaniu. ",
+      "answer": "nan"
+    },
+    {
+      "question": "Gdzie znajduje się i do czego służy przestrzeń asekuracyjna? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Przez które wyjście ewakuujesz pasażerów po lądowaniu na wodzie? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Którędy będziesz ewakuować pasażerów podczas wodowania zajmując pozycję CC2/CC4? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Których wyjść awaryjnych używamy po wodowaniu?  ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jaką rolę pełnią ABP zajmujący miejsca w ostatnich rzędach po wodowaniu? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Kiedy używamy lin zamontowanych w oknach awaryjnych? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Gdzie w samolocie znajdują się liny ewakuacyjne? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Która CC jest odpowiedzialna za włączenie oświetlenia awaryjnego i gdzie znajduje się włącznik tego oświetlenia? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Które CC są odpowiedzialne za sprawdzenie sekcji po ewakuacji i w jaki sposób to zgłoszą? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jak odłączysz dopływ prądu w przypadku pożaru piekarnika? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Wyciągając odpowiedni bezpiecznik",
+      "answer": "nan"
+    },
+    {
+      "question": "Jak uruchomić przepływ tlenu w maskach, które wypadną z PSU w przypadku dekompresji? ",
+      "answer": "nan"
+    },
+    {
+      "question": "W jaki sposób otworzysz panel PSU w przypadku dekompresji, jeśli nie otworzy się automatycznie? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj ilość i lokalizację masek stacjonarnego systemu tlenowego w kabinie. (grupa foteli pasażerskich, jump seat, toaleta i bufet) ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj lokalizację kamizelek ratunkowych dla pasażerów w samolotach WA-WD i WF-WG. ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj lokalizację miejsca najmniejszego ryzyka. ",
+      "answer": "3R"
+    }
+  ],
+  "ERJ": [
+    {
+      "question": "W jaki sposób nawiążesz łączność z załogą lotniczą, aby poinformować o sytuacji awaryjnej na pokładzie? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Opisz procedurę awaryjnego dostępu do kokpitu ERJ170-100 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Opisz procedurę awaryjnego dostępu do kokpitu ERJ190 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jakie elementy wchodzą w skład procedury pre-flight door check? ERJ190-100 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jakie elementy wchodzą w skład procedury pre-flight door check? ERJ190-400(E2) 6. Które indykatory na drzwiach świadczą o poprawności uzbrojenia tych drzwi? ERJ190-100 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Co świadczy o prawidłowym uzbrojeniu drzwi w samolocie E190-400 (E2)? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Który indykator świadczy o poprawności zamknięcia drzwi? ERJ190-100 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Który indykator świadczy o poprawności zamknięcia drzwi? ERJ190-400(E2) ",
+      "answer": "nan"
+    },
+    {
+      "question": "Czy otwarcie uzbrojonych drzwi z zewnątrz spowoduje napełnienie się trapu?  ",
+      "answer": "nan"
+    },
+    {
+      "question": "Co oznacza stałe pomarańczowe światło na panelu RAINBOW? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Co oznacza migające pomarańczowe światło na panelu RAINBOW? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Co oznacza zielone światło na panelu RAINBOW? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Co oznacza czerwone światło na panelu RAINBOW? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Kto odpowiada za sprawdzenie poziomu nieczystości w samolocie? Gdzie znajduje się wskaźnik tego zbiornika? E190-200 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Gdzie przeprowadzisz indywidualny briefing pasażerów podczas przygotowania kabiny do lądowania awaryjnego/wodowania? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Kiedy, po lądowaniu awaryjnym, należy włączyć oświetlenie awaryjne? Która CC jest za to odpowiedzialna? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Gdzie w kabinie pasażerskiej znajduje się włącznik oświetlenia awaryjnego? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Kiedy uruchomi się zewnętrzne oświetlenie awaryjne? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Wymień, co wchodzi w skład zewnętrznego oświetlenia awaryjnego tego samolotu.  ",
+      "answer": "nan"
+    },
+    {
+      "question": "Wymień, co wchodzi w skład wewnętrznego oświetlenia awaryjnego tego samolotu.  ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj kolejno czynności, które wykonasz po usłyszeniu komendy „EVACUATE, EVACUATE” po wodowaniu. ",
+      "answer": "nan"
+    },
+    {
+      "question": "Na której wersji ERJ nie korzystamy/nie używamy wyjść 3L/3R podczas ewakuacji po wodowaniu? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Przez które wyjście ewakuujesz pasażerów po wodowaniu w EMB 170-100? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jak całkowicie odczepić trap od samolotu? Czy trap po wodowaniu może służyć rozbitkom jako tratwa ratunkowa? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Które CC są odpowiedzialne za sprawdzenie sekcji po ewakuacji i w jaki sposób to zgłoszą? E190-200 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Za które drzwi jest odpowiedzialna i prowadzi ewakuację CC3? NO, NP. ",
+      "answer": "nan"
+    },
+    {
+      "question": "Za którą sekcję po ewakuacji odpowiada CC3? NO, NP. ",
+      "answer": "nan"
+    },
+    {
+      "question": "W jaki sposób wyłączysz zasilanie bufetu w przypadku pożaru? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jaka jest funkcja GALLEY MASTER? Gdzie go znajdziesz? E190-100 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jaka jest funkcja GALLEY MASTER? Gdzie go znajdziesz? E190-400 ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jak zasygnalizowany zostanie pożar w tylnej toalecie, kokpit/kabina? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jaka zasada obowiązuje w przypadku przydzielania miejsca pasażerowi podróżującemu z INF i dlaczego? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Jak uruchomić przepływ tlenu w maskach, które wypadną w trakcie dekompresji z PSU? ",
+      "answer": "nan"
+    },
+    {
+      "question": "W jaki sposób otworzysz panel PSU w przypadku dekompresji, jeśli nie otworzy się automatycznie? ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj ilość i lokalizację masek stacjonarnego systemu tlenowego w kabinie (grupa foteli pasażerskich, jump seat, toaleta i bufet). ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj rozmieszczenie masek stacjonarnego systemu tlenowego w samolocie. ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj lokalizację miejsca najmniejszego ryzyka (LRBL) E190-100. ",
+      "answer": "nan"
+    },
+    {
+      "question": "Podaj lokalizację miejsca najmniejszego ryzyka (LRBL) E190-400. ",
+      "answer": "nan"
+    }
+  ],
+  "Medycyna": [
+    {
+      "question": "W której apteczce znajduje się PEDICETAMOL? ",
+      "answer": "Apteczka FAK "
+    },
+    {
+      "question": "Podaj nazwę leku, który podasz dziecku, u którego występują objawy gorączki. Gdzie go znajdziesz? ",
+      "answer": "Pedicetamol znajdujący się w apteczce FAK "
+    },
+    {
+      "question": "W której apteczce znajdziesz ciśnieniomierz i glukometr? ",
+      "answer": "Ciśnieniomierz i glukometr znajdują się w EMK. Ciśnieniomierz może znajdować się również w niektórych apteczkach AME, oznaczonych fioletową plombą na rączce. "
+    },
+    {
+      "question": "W której apteczce znajdziesz pulsoksymetr i do czego to urządzenie służy? ",
+      "answer": "W AME i jest to urządzeniem umożliwiające pomiar dwóch parametrów: saturacji krwi (poziomu wysycenia krwi tlenem) oraz tętna. "
+    },
+    {
+      "question": "Podaj lokalizację pulsoksymetru oraz opisz sposób zabezpieczenia apteczki po jego użyciu. ",
+      "answer": "W AME. Po użyciu pulsoksymetru plombujemy na niebiesko do póki są niebieskie plomby. Jeżeli użyjemy czegokolwiek innego to plombujemy na czerwono w WAW a w obcym porcie na niebiesko i pozostawiamy informacje powracającej załodze, żeby zaplombowali na czerwono i wpisali do LDP w WAW. "
+    },
+    {
+      "question": "Kiedy bezwzględnie należy rozpocząć resuscytację? ",
+      "answer": "Jeżeli poszkodowany nie oddycha lub jego oddech jest nieprawidłowy, czyli nie zauważyliśmy dwóch oddechów w przeciągu 10 sekund."
+    },
+    {
+      "question": "Jak długo prowadzimy resuscytację? ",
+      "answer": "Personel pokładowy kontynuuje resuscytację krążeniowo-oddechową do momentu:  \n1. powrotu spontanicznego oddechu i krążenia; lub  \n2. kontynuacja resuscytacji krążeniowo-oddechowej staje się niebezpieczna (np. umiarkowane i silne turbulencje i/lub prognozowane trudne lądowanie po konsultacji z załogą lotniczą); lub  \n3. wszyscy ratownicy są zbyt wyczerpani, aby kontynuować; lub  \n4. samolot wylądował, a opieka została przekazana służbom ratownictwa medycznego; lub  \n5. lekarz medycyny jest obecny na pokładzie i stwierdził zgon poszkodowanego; lub  \n6. poszkodowany jest uważany za zmarłego: jeśli resuscytacja krążeniowo-oddechowa była kontynuowana przez 30 minut lub dłużej bez oznak życia w tym czasie i nie zalecono żadnych wstrząsów przez pokładowy AED, osobę można UZNAĆ ZA ZMARŁĄ, a resuscytacja została przerwana. "
+    },
+    {
+      "question": "Od jakich czynności rozpoczynamy resuscytację infanta lub dziecka po stwierdzeniu, że nie oddycha. ",
+      "answer": "Od 5 ratujących oddechów "
+    },
+    {
+      "question": "Jak podać tlen INFANTOWI? ",
+      "answer": "Tlen podajemy 2l i nie zakładamy maski na twarz tylko trzymamy ją przed twarzą inf. "
+    },
+    {
+      "question": "Jaki poziom saturacji wskazuje, że pasażerowi należy podać tlen?",
+      "answer": "Przy saturacji poniżej 94% należy podać tlen. "
+    },
+    {
+      "question": "Opisz w jaki sposób ocenisz oddech osoby nieprzytomnej. ",
+      "answer": "Udrażniamy drogi oddechowe kładąc jedną dłoń na czole poszkodowanego a palce drugiej ręki unoszą brodę. \n\nOceniamy oddech przybliżając swój policzek do ust poszkodowanego a wzrok kierujemy na klatkę piersiową: \n\nSłuchem – sprawdzamy czy słychać oddech \n\nCzuciem – sprawdzamy czy czujemy powietrze na naszym policzku \n\nWizualnie – obserwujemy czy klatka piersiowa się unosi \n\nJeżeli nie zauważymy 2 oddechów w ciągu 10 sekund to rozpoczynamy CPR. "
+    },
+    {
+      "question": "W jaki sposób udrożnisz drogi oddechowe? ",
+      "answer": "Udrażniamy drogi oddechowe kładąc jedną dłoń na czole poszkodowanego a palce drugiej ręki unoszą brodę. "
+    },
+    {
+      "question": "Opisz sposób postępowania w trakcie udzielania pomocy pasażerowi, u którego wystąpił atak epilepsji. ",
+      "answer": "Wezwij pomoc medyczną \n\nOdsuń innych pasażerów \n\nChroń pasażera przed urazem – umieść poduszki i koce wokół osoby, miękką wyściółkę pod  \ngłową \n\nNie próbuj przytrzymywać ofiary – jeśli siedzi na siedzeniu i nie wysuwa się, poluzuj i zapnij pasy bezpieczeństwa \n\nUzyskaj wywiad medyczny od rodziny, towarzyszy lub pasażerów siedzących obok pasażera \n\nPoszukaj bransoletki lub wisiorka medycznego \n\nPo ustąpieniu napadu rozpocznij podstawową ocenę. Jeśli pasażer jest nieprzytomny i oddycha prawidłowo, ułóż go w pozycji bezpiecznej i podaj tlen o wysokim przepływie (4 l/min.) - użyj pulsoksymetru i utrzymuj saturację w zakresie 94-98%. \n\nZapisz, jak długo trwał napad \n\nLecz wszelkie urazy będące wynikiem napadów \n\nZostań z pasażerem do całkowitego wyzdrowienia i monitoruj, czy nie wystąpiły kolejne napady. "
+    },
+    {
+      "question": "Opisz sposób postępowania w trakcie udzielania pomocy pasażerowi, który doznał poparzenia gorącym napojem. ",
+      "answer": "Uspokój, uzyskaj historię i podstawowe parametry życiowe  \n\nUżywaj sprzętu ochronnego (rękawiczki)  \n\nOCZYŚĆ obszar z wszystkiego, co może się palić: biżuterii, zegarków, ubrań, które nie przywierają  \n\nZdejmij mokre ubrania, jeśli zostały nasączone gorącymi płynami  \n\nW przypadku oparzeń chemicznych ważne jest, aby zdjąć ubrania zanieczyszczone chemikaliami (użyj rękawiczek)  \n\nNATYCHMIAST przystąp do schłodzenia poparzonego obszaru chłodną wodą (temperatura pokojowa) do 20 minut. \n\nUtrzymuj poszkodowanego w cieple, jednocześnie chłodząc oparzenie  \n\nZAKRYJ poparzony obszar luźnym, czystym, niepuszystym materiałem Zaleca się stosowanie opatrunku hydrożelowego z apteczki FAK.  \n\nŻel TERMCOOL można stosować u dorosłych i dzieci powyżej 3 roku życia, na oparzenia bez pęcherzy i otwartych ran.  \n\nMonitoruj reakcję  \nNIE: \n- odklejaj przyklejonej odzieży lub palących substancji  \n- używaj lodu do chłodzenia dotkniętego obszaru, ponieważ lód parzy tkanki  \n- przebijaj pęcherzy  \n- stosuj balsamów, maści, kremów i pudrów.  \nZadzwoń po pomoc medyczną, jeśli:  \n- obszar urazu obejmuje twarz, szyję, dłonie lub pachwinę  \n- poszkodowany jest bardzo młody lub jest osobą starszą  \n- istnieją jakiekolwiek wątpliwości co do stanu poszkodowanego  \n- poszkodowany wykazuje jakiekolwiek oznaki i objawy wstrząsu.  "
+    },
+    {
+      "question": "Podaj nazwę leku, którego użyjesz i gdzie go znajdziesz, jeśli na pokładzie samolotu dojdzie do poparzenia gorącym napojem? ",
+      "answer": "Termcool i opatrunek hydrożelowy w apteczce FAK. "
+    },
+    {
+      "question": "Opisz sposób postępowania w trakcie udzielania pomocy pasażerowi, u którego wystąpił krwotok z nosa.",
+      "answer": "Użyj rękawiczek \n\nUspokój, zbierz wywiad i podstawowe parametry życiowe \n\nOceń, czy nie ma oznak urazu \n\nPoproś pasażera, aby pochylił się do przodu, oddychał przez usta i ściskał miękką część nosa przez 10 minut \n\nZapewnij kubek i chusteczki, aby wytrzeć krew. Poproś poszkodowanego, aby nie połykał krwi, ale wypluł ją do kubka. \n\n Jeśli krwawienie nie ustąpi w ciągu 10 min., poproś poszkodowanego o uszczypnięcie przez kolejne 10 min. Jeśli krwawienie nie ustąpi w ciągu 20 min. – wezwij pomoc medyczną. \n\nMonitoruj poszkodowanego pod kątem objawów wstrząsu.  "
+    },
+    {
+      "question": "Według jakiego akronimu rozpoznasz udar u pasażera (rozwiń go)? ",
+      "answer": "FAST \n\nFace, Arms, Speech, Time "
+    },
+    {
+      "question": "W której apteczce znajdziesz lek na ból brzucha? ",
+      "answer": "FAK- NO -SPA "
+    },
+    {
+      "question": "Jak długo ważny jest MEDIF i co ten skrót oznacza? ",
+      "answer": "14 dni / dwa tygodnie. MEDIF - MEDICAL INFORMATION FORM - jest zaświadczeniem lekarskim ważnym wyłącznie na lot(y) i datę(y) określone na zaświadczeniu. Kopia dokumentu MEDIF musi być zawsze przedstawiona przedstawicielowi i SCCM przed wejściem na pokład przypadku MEDA. Badanie lekarskie  \nmusi zostać przeprowadzone nie wcześniej niż 2 tygodnie przed lotem. Jeśli stan zdrowia pasażera  \nzmienił się pomiędzy momentem wystawienia MEDIF a datą podróży, konieczne będzie  \nwystawienie nowego formularza MEDIF dla tego pasażera. Część formularza zawierająca  \ninformacje medyczne o stanie pasażera wypełnia lekarz i jest poufna. Część zawierająca  \noświadczenie wypełnia pasażer. "
+    },
+    {
+      "question": "W jakich przypadkach wymagany jest MEDIF na pokładzie samolotu? ",
+      "answer": "STCR \n\nMEDA \n\nKobieta po 32 tygodniu nieskomplikowanej ciąży. \n\nKobieta w skomplikowanej lub mnogiej ciąży  \n\nNoworodek do 7 dnia życia "
+    },
+    {
+      "question": "Co może użyć personel pokładowy z apteczki EMK za zgodą CPT, jeśli na pokładzie nie ma lekarza? ",
+      "answer": "Glukometr \n\nAparat do mierzenia ciśnienia \n\nTabletki na życzenie chorego jeżeli takich samych używa i są konieczne dla jego zdrowia "
+    },
+    {
+      "question": "Jakie dokumenty wypełnisz i w jaki sposób zabezpieczysz apteczkę EMK po jej użyciu, przed lądowaniem w obcym porcie? ",
+      "answer": "Medical Incident Report Form - przypadku użycia apteczki należy wypełnić datę. Nazwisko. Pasażera. Diagnozę medyczną. Oraz nazwę użytego leku, Imię i nazwisko CC Oraz imię i nazwisko lekarza. Jeżeli pomagał. Numer lotu. Numer plomby, zamknięcia apteczki. Wypełniony dokument należy umieścić ponownie w apteczce. \n\nRegister of used medicines – Należy Wypełnić zawsze, gdy używamy apteczki FAK. Wpisać ilość pozostawionego leku, numer lotu., numer plomby zamykającej apteczkę, imię i nazwisko CC, datę przeciw. Oraz uwagi. Na przykład. Numer plomby, jeżeli nie była zgodna z plombą wpisaną poprzednio w dokumencie Lub Jeżeli zauważyliśmy niezgodność w ilości pozostawionych leków. \n\nMedical Assessment Checklist - ten dokument porządkuje czynności podczas udzielania pierwszej pomocy, jest używany do opisywania i monitorowania przypadku medycznego i ułatwia przekazanie tych informacji w przypadku kontaktu z Medlink. W przypadku jakiegokolwiek incydent tu medycznego na pokładzie, CC zobowiązane są do wypełnienia dokumentu podczas przeprowadzania wywiadu z chorym lub rannym pasażerem lub członkiem załogi. Ten dokument dostępny jest również na sali briefingowej. Każda CC jest zobowiązana do posiadania 2 kopii na każdy lot. Zdjęcie dokumentu należy dołączyć do raportu z lotu a wypełniony dokument należy umieścić w skrzynce na sali briefingowej w przeciągu 72h. \n\nRaport z lotu – Należy opisać objawy choroby, jak postąpiono, wymienić co użyliśmy z apteczek FAK, AME lub EMK wraz z numerami apteczek. Czy AED było użyte i jak zakończył się incydent medyczny. \n\nApteczkę należy zaplombować czerwoną plombą i zostawić informację powracającej załodze o użyciu apteczki i poprosić aby wpisać apteczkę do LDP-70 w WAW. Warto im wpisać w wiadomości od razu numer plomby na którą zaplombowaliśmy apteczkę i numer apteczki EMK.  "
+    },
+    {
+      "question": "W jaki sposób zabezpieczysz apteczkę EMK po jej użyciu przy powrocie do bazy macierzystej? ",
+      "answer": "Zaplombuję czerwoną plombą"
+    },
+    {
+      "question": "Która apteczka wyposażona jest w zestaw do intubacji? ",
+      "answer": "AME"
+    },
+    {
+      "question": "Na jaką plombę zaplombujesz FAK po lądowaniu w obcym porcie, w sytuacji wymiany załogi i zużycia leków poniżej wymaganego limitu?  ",
+      "answer": "Na granatową plombę i zostawię wiadomość załodze powracającej z prośbą o zmianę plomby na czerwoną i wpisanie apteczki do LDP. "
+    },
+    {
+      "question": "Na jaką plombę zaplombujesz FAK po lądowaniu w porcie macierzystym, jeśli ilość leków jest poniżej wymaganego limitu?  ",
+      "answer": "Na czerwoną. "
+    },
+    {
+      "question": "Jakie dokumenty/raporty należy wypełnić oraz wysłać po otwarciu apteczki FAK w przypadku nieprzekroczenia stanu minimalnego wyposażenia, z powrotem do bazy macierzystej? ",
+      "answer": "Medical Incident Report Form - przypadku użycia apteczki należy wypełnić datę. Nazwisko. Pasażera. Diagnozę medyczną. Oraz nazwę użytego leku, Imię i nazwisko CC Oraz imię i nazwisko lekarza. Jeżeli pomagał. Numer lotu. Numer plomby, zamknięcia apteczki. Wypełniony dokument należy umieścić ponownie w apteczce. \n\nRegister of used medicines – Należy Wypełnić zawsze, gdy używamy apteczki FAK. Wpisać ilość pozostawionego leku, numer lotu., numer plomby zamykającej apteczkę, imię i nazwisko CC, datę przeciw. Oraz uwagi. Na przykład. Numer plomby, jeżeli nie była zgodna z plombą wpisaną poprzednio w dokumencie Lub Jeżeli zauważyliśmy niezgodność w ilości pozostawionych leków. \n\nMedical Assessment Checklist - ten dokument porządkuje czynności podczas udzielania pierwszej pomocy, jest używany do opisywania i monitorowania przypadku medycznego i ułatwia przekazanie tych informacji w przypadku kontaktu z Medlink. W przypadku jakiegokolwiek incydent tu medycznego na pokładzie, CC zobowiązane są do wypełnienia dokumentu podczas przeprowadzania wywiadu z chorym lub rannym pasażerem lub członkiem załogi. Ten dokument dostępny jest również na sali briefingowej. Każda CC jest zobowiązana do posiadania 2 kopii na każdy lot. Zdjęcie dokumentu należy dołączyć do raportu z lotu a wypełniony dokument należy umieścić w skrzynce na sali briefingowej w przeciągu 72h. \n\nRaport z lotu – Należy opisać objawy choroby, jak postąpiono, wymienić co użyliśmy z apteczek FAK, AME lub EMK wraz z numerami apteczek. Czy AED było użyte i jak zakończył się incydent medyczny. Podanie jakiegokolwiek leku i tlenu musi być zawsze udokumentowane i zgłoszone za pośrednictwem Cabin Raport.  \nPodanie środków przeciwbólowych/przeciwgorączkowych na bóle głowy spowodowane napięciem oraz stosowanie plastrów musi być dokumentowane, ale nie ma potrzeby zgłaszania tego za pośrednictwem Cabin Crew Report. "
+    }
+  ]
+}

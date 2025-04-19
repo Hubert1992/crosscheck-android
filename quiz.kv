@@ -1,0 +1,88 @@
+ScreenManager:
+    CategoryScreen:
+        name: 'categories'
+    QuizScreen:
+        name: 'quiz'
+
+<CategoryScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 10
+        spacing: 10
+
+        Spinner:
+            id: category_spinner
+            text: 'Ładowanie...'
+            values: []
+            size_hint_y: None
+            height: '40dp'
+
+        Button:
+            text: "It's who you travel with"
+            size_hint_y: None
+            height: '40dp'
+            on_release:
+                app.root.get_screen('quiz').start_quiz(category_spinner.text)
+                root.manager.current = 'quiz'
+
+        Button:
+            text: 'Wyjście'
+            size_hint_y: None
+            height: '40dp'
+            on_release: app.stop()
+
+<QuizScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 10
+        spacing: 10
+
+        BoxLayout:
+            size_hint_y: None
+            height: '30dp'
+            Label:
+                id: score_label
+                text: 'Wynik: 0'
+                bold: True
+
+        Label:
+            id: question
+            text: ''
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+
+        Button:
+            text: 'Pokaż odpowiedź'
+            size_hint_y: None
+            height: '40dp'
+            on_release: root.show_answer()
+
+        Label:
+            id: answer
+            text: ''
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+
+        BoxLayout:
+            size_hint_y: None
+            height: '40dp'
+            spacing: 10
+
+            Button:
+                text: 'Correct'
+                on_release: root.on_answer(correct=True)
+            Button:
+                text: 'Incorrect'
+                on_release: root.on_answer(correct=False)
+
+        Button:
+            text: 'Powrót do kategorii'
+            size_hint_y: None
+            height: '40dp'
+            on_release: root.manager.current = 'categories'
+
+<CategoryButton@Button>:
+    size_hint_y: None
+    height: '40dp'
