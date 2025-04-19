@@ -1,4 +1,4 @@
-name: 📦 Build Android APK via Buildozer Container
+name: 📦 Build Android APK (no-Docker)
 
 on:
   push:
@@ -10,71 +10,90 @@ permissions:
   actions: write
 
 jobs:
-  build:
-    # zatkajemy nasz proces w kontenerze kivy/buildozer
+  build-android:
     runs-on: ubuntu-latest
-    container:
-      image: kivy/buildozer:latest
-      # root jest potrzebny, aby buildozer mógł zapisać pliki w /home
-      options: --user root
+    env:
+      ANDROID_SDK_ROOT: ${{ runner.temp }}/android-sdk
+      PATH: ${{ runner.temp }}/android-sdk/cmdline-tools/latest/bin:$PATH
 
     steps:
+      # 1) Checkout your code
       - name: Checkout code
         uses: actions/checkout@v3
+
+      # 2) Set up Python & Java
+      - name: Set up Java 11
+        uses: actions/setup-java@v3
         with:
-          fetch-depth: 0
+          distribution: temurin
+          java-version: '11'
 
-      - name: Copy sources into container home
+      # 3) Install Android command‑line tools
+      - name: Install Android SDK Command-line Tools
         run: |
-          # buildozer container domyślnie pracuje w /home/user
-          mkdir -p /home/user/app
-          cp -R . /home/user/app
-          cd /home/user/app
+          cd $RUNNER_TEMP
+          mkdir -p $ANDROID_SDK_ROOT/cmdline-tools
+          wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip -O tools.zip
+          unzip tools.zip -d $ANDROID_SDK_ROOT/cmdline-tools
+          mv $ANDROID_SDK_ROOT/cmdline-tools/cmdline-tools $ANDROID_SDK_ROOT/cmdline-tools/latest
 
-      - name: Ensure buildozer.spec exists
+      # 4) Accept licenses and install platforms & build-tools
+      - name: Accept licenses & install SDK packages
         run: |
-          if [ ! -f /home/user/app/buildozer.spec ]; then
-            echo "[app]" > buildozer.spec
-            echo "title = Cross check" >> buildozer.spec
-            echo "package.name = crosscheck" >> buildozer.spec
-            echo "package.domain = org.example" >> buildozer.spec
-            echo "source.dir = ." >> buildozer.spec
-            echo "source.include_exts = py,kv,json" >> buildozer.spec
-            echo "version = 1.0" >> buildozer.spec
-            echo "requirements = python3,kivy" >> buildozer.spec
-            echo "orientation = portrait" >> buildozer.spec
-            echo "android.permissions = INTERNET" >> buildozer.spec
+          yes | sdkmanager --sdk_root=${ANDROID_SDK_ROOT} --licenses
+          sdkmanager --sdk_root=${ANDROID_SDK_ROOT} "platform-tools" "platforms;android-31" "build-tools;31.0.0"
+
+      # 5) Install system deps for Buildozer (Cython, etc.)
+      - name: Install Buildozer dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pip python3-venv unzip zip openjdk-11-jdk
+          python3 -m pip install --upgrade pip setuptools wheel
+          pip3 install cython buildozer
+
+      # 6) Ensure buildozer.spec
+      - name: Ensure buildozer.spec
+        run: |
+          if [ ! -f buildozer.spec ]; then
+            cat <<EOF > buildozer.spec
+   [app]
+   title = Cross check
+   package.name = crosscheck
+   package.domain = org.example
+   source.dir = .
+   source.include_exts = py,kv,json
+   version = 1.0
+   requirements = python3,kivy
+   orientation = portrait
+   android.permissions = INTERNET
+   EOF
           fi
 
-      - name: Install Cython (if needed)
+      # 7) Build the APK
+      - name: Build APK with Buildozer
         run: |
-          cd /home/user/app
-          pip install cython
-
-      - name: Build APK
-        run: |
-          cd /home/user/app
           buildozer android debug --verbose
 
-      - name: List built APK
+      # 8) List the result
+      - name: List contents of bin/
         run: |
-          cd /home/user/app/bin
-          echo ">>> Zawartość bin/:"
-          ls -l
+          echo ">>> bin/ zawartość:"
+          ls -R bin
 
-      - name: Push APK to branch 'apk'
+      # 9) Commit APK to branch 'apk'
+      - name: Publish APK to branch
         env:
-          REPO: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         run: |
-          cd /home/user/app
-          APK=$(ls bin/*.apk | head -n1)
-          git clone "$REPO" out
-          cd out
+          APK=\$(ls bin/*.apk | head -n1)
+          mkdir out && cd out
+          git clone --depth 1 --branch main \$REPO_URL repo
+          cd repo
           git checkout --orphan apk
           git rm -rf .
-          cp "../$APK" .
+          cp ../../\$APK .
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add *.apk
-          git commit -m "Add APK from $GITHUB_SHA"
+          git commit -m "Add APK from \${GITHUB_SHA}"
           git push -f origin apk
