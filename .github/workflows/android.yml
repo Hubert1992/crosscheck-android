@@ -1,4 +1,4 @@
-name: 📦 Build Android APK and Publish
+name: 📦 Build Android APK via Buildozer Container
 
 on:
   push:
@@ -10,10 +10,13 @@ permissions:
   actions: write
 
 jobs:
-  build-android:
+  build:
+    # zatkajemy nasz proces w kontenerze kivy/buildozer
     runs-on: ubuntu-latest
-    env:
-      JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
+    container:
+      image: kivy/buildozer:latest
+      # root jest potrzebny, aby buildozer mógł zapisać pliki w /home
+      options: --user root
 
     steps:
       - name: Checkout code
@@ -21,51 +24,55 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Java 11
-        uses: actions/setup-java@v3
-        with:
-          distribution: temurin
-          java-version: '11'
-
-      - name: Install system dependencies
+      - name: Copy sources into container home
         run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            python3-pip python3-venv \
-            openjdk-11-jdk unzip zlib1g-dev libffi-dev \
-            libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
-            gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
-            gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav \
-            build-essential git-core
+          # buildozer container domyślnie pracuje w /home/user
+          mkdir -p /home/user/app
+          cp -R . /home/user/app
+          cd /home/user/app
 
-      - name: Install Buildozer & Cython
+      - name: Ensure buildozer.spec exists
         run: |
-          python3 -m pip install --upgrade pip setuptools wheel
-          pip3 install cython buildozer
+          if [ ! -f /home/user/app/buildozer.spec ]; then
+            echo "[app]" > buildozer.spec
+            echo "title = Cross check" >> buildozer.spec
+            echo "package.name = crosscheck" >> buildozer.spec
+            echo "package.domain = org.example" >> buildozer.spec
+            echo "source.dir = ." >> buildozer.spec
+            echo "source.include_exts = py,kv,json" >> buildozer.spec
+            echo "version = 1.0" >> buildozer.spec
+            echo "requirements = python3,kivy" >> buildozer.spec
+            echo "orientation = portrait" >> buildozer.spec
+            echo "android.permissions = INTERNET" >> buildozer.spec
+          fi
 
-      - name: Build APK with Buildozer
-        run: buildozer android debug --verbose
-
-      - name: List contents of bin/
+      - name: Install Cython (if needed)
         run: |
-          echo ">>> Zawartość katalogu bin:"
-          if [ -d bin ]; then ls -R bin; else echo "(bin/ nie istnieje)"; fi
+          cd /home/user/app
+          pip install cython
 
-      - name: Push APK to branch
+      - name: Build APK
+        run: |
+          cd /home/user/app
+          buildozer android debug --verbose
+
+      - name: List built APK
+        run: |
+          cd /home/user/app/bin
+          echo ">>> Zawartość bin/:"
+          ls -l
+
+      - name: Push APK to branch 'apk'
         env:
           REPO: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         run: |
-          APK_FILE=$(ls bin/*.apk 2>/dev/null | head -n1)
-          if [ -z "$APK_FILE" ]; then
-            echo "Nie znaleziono .apk w bin/, zakończone bez push."
-            exit 1
-          fi
-          echo "Znaleziono APK: $APK_FILE"
+          cd /home/user/app
+          APK=$(ls bin/*.apk | head -n1)
           git clone "$REPO" out
           cd out
           git checkout --orphan apk
           git rm -rf .
-          cp "../$APK_FILE" .
+          cp "../$APK" .
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add *.apk
