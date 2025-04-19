@@ -50,8 +50,16 @@ jobs:
         buildozer android debug --verbose
 
     # 6) Wgraj gotowy APK jako artefakt workflow
-    - name: Upload APK artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: crosscheck-apk
-        path: bin/*.apk
+         - name: Check bin folder
+         run: |
+           echo ">>> Zawartość katalogu bin:"
+           ls -R bin || echo "(bin nie istnieje)"
+
+-      - name: Upload APK artifact
+-        uses: actions/upload-artifact@v3
++      - name: Upload APK artifact
++        uses: actions/upload-artifact@v2
+         with:
+           name: crosscheck-apk
+           path: bin/*.apk
+
