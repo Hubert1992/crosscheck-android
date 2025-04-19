@@ -1,12 +1,13 @@
 name: 📦 Build Android APK
 
-# <-- Tu dajemy workflow odpowiednie uprawnienia
+# Uprawnienia dla workflow
 permissions:
-  contents: read        # odczyt kodu
+  contents: read        # odczyt repozytorium
   actions: write        # pobieranie i wykonywanie akcji
-  packages: write       # (jeśli chcemy też zapisywać paczki)
-  id-token: write       # (potrzebne np. do OIDC, nie zaszkodzi)
+  packages: write       # zapis paczek (artefaktów)
+  id-token: write       # potrzebne do OIDC, nie zaszkodzi
 
+# Triggerujemy przy pushu do gałęzi main
 on:
   push:
     branches:
@@ -19,15 +20,22 @@ jobs:
       JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
 
     steps:
+      # 1) Testowy krok – sprawdzamy, że workflow jest wczytywany
+      - name: Hello world test
+        run: echo "🎉 Workflow działa – kroki są widoczne!"
+
+      # 2) Checkout kodu
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 3) Ustawienie Java 11
       - name: Set up Java 11
         uses: actions/setup-java@v3
         with:
           distribution: temurin
           java-version: '11'
 
+      # 4) Instalacja pakietów systemowych
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -39,20 +47,24 @@ jobs:
             gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
             gstreamer1.0-libav build-essential git-core
 
+      # 5) Instalacja Buildozera
       - name: Install Buildozer
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
           pip3 install buildozer
 
+      # 6) Budowa APK
       - name: Build APK with Buildozer
         run: |
           buildozer android debug --verbose
 
+      # 7) Debug: listujemy katalog bin/
       - name: List contents of bin/
         run: |
           echo ">>> Zawartość katalogu bin:"
           if [ -d "bin" ]; then ls -R bin; else echo "(folder bin/ nie istnieje)"; fi
 
+      # 8) Upload artefaktu APK
       - name: Upload APK artifact
         uses: actions/upload-artifact@v2
         with:
