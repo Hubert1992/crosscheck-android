@@ -38,14 +38,13 @@ jobs:
             gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav \
             build-essential git-core
 
-      - name: Install Buildozer
+      - name: Install Buildozer & Cython
         run: |
           python3 -m pip install --upgrade pip setuptools wheel
-          pip3 install buildozer
+          pip3 install cython buildozer
 
       - name: Build APK with Buildozer
-        run: |
-          buildozer android debug --verbose
+        run: buildozer android debug --verbose
 
       - name: List contents of bin/
         run: |
